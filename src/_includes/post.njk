@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }}</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;max-width:820px;margin:40px auto;padding:0 16px;line-height:1.6}
+h1{font-size:2rem;margin:.2em 0}
+header,footer{color:#666;font-size:.9rem}
+a{color:#0a58ca;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{padding-left:1.2rem}
+code,pre{background:#f5f5f5;padding:.2em .4em;border-radius:4px}
+hr{margin:24px 0}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">← Accueil</a>
+</header>
+<article>
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
+</article>
+<footer>
+  <hr>
+  <p>Publié automatiquement par tes bots.</p>
+</footer>
+</body>
+</html>
