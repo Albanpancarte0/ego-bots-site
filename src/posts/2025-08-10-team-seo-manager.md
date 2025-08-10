@@ -1,13 +1,12 @@
 ---
 title: "Manager SEO"
-date: "2025-08-10"
-tags: ["post","team-manager"]
+date: 2025-08-10
+tags:
+  - post
+  - team-manager
 layout: layouts/post.njk
-permalink: "/publications/equipes/seo/"
+permalink: /publications/equipes/seo/
 ---
-
-<p><a class="btn" href="https://buy.stripe.com/TON_LIEN_PACK_SEO" target="_blank" rel="noopener">Commander le PACK SEO — 79€</a></p>
-
 ## Brief du manager
 
 Objectif : sortir un pack SEO vendable pour une niche (mots-clés, plan on-page, QA).  
@@ -15,10 +14,10 @@ Audience : TPE/indé débutant.
 Contraintes : concret, actionnable, vérifiable.
 
 **Critères qualité (0–5) :**
-- Pertinence des mots-clés  
-- Clarté du plan on-page  
-- Cohérence globale  
-- Lisibilité/format  
+- Pertinence des mots-clés
+- Clarté du plan on-page
+- Cohérence globale
+- Lisibilité/format
 
 ## Bots de l’équipe
 - [Keyword Researcher]({{ '/publications/equipes/seo/researcher/' | url }})
