@@ -17,8 +17,8 @@ Critères qualité (0–5) :
 - Lisibilité/format
 
 ## Bots de l’équipe
-- [Keyword Researcher](/publications/equipes/seo/researcher/)
-- [On-Page Optimizer](/publications/equipes/seo/onpage/)
-- [Quality Assessor](/publications/equipes/seo/qa/)
-
+- [Keyword Researcher]({{ '/publications/equipes/seo/researcher/' | url }})
+- [On-Page Optimizer]({{ '/publications/equipes/seo/onpage/' | url }})
+- [Quality Assessor]({{ '/publications/equipes/seo/qa/' | url }})
+  
 > ⚙️ Ajoute ici ton lien Stripe pour commander le pack.
