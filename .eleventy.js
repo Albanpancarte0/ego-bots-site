@@ -1,1 +1,1 @@
-module.exports = { dir: { output: "docs" } };
+module.exports = () => ({dir:{input:'src',output:'docs'}})
