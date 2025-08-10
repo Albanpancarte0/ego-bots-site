@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy --input=src --output=docs",
+    "build": "eleventy --input=src --output=docs --pathprefix=/ego-bots-site/",
     "serve": "eleventy --serve"
   },
   "keywords": [],
