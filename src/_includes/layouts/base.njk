@@ -4,12 +4,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ title or "Site" }}</title>
-  <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:800px;margin:40px auto;padding:0 16px;line-height:1.55}nav a{margin-right:12px}.muted{opacity:.7;font-size:.9em}</style>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:800px;margin:40px auto;padding:0 16px;line-height:1.55}
+    nav{margin-bottom:20px}
+    nav a{margin-right:12px;text-decoration:none}
+    .muted{opacity:.7;font-size:.9em}
+  </style>
 </head>
 <body>
   <nav>
     <a href="{{ '/' | url }}">Accueil</a>
-    <a href="{{ '/posts/' | url }}">Posts</a>
+    <a href="{{ '/publications/' | url }}">Publications</a>
   </nav>
   <main>{{ content | safe }}</main>
 </body>
