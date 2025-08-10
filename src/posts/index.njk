@@ -1,0 +1,16 @@
+---
+title: Posts
+layout: layouts/base.njk
+permalink: /posts/
+---
+<h1>Posts</h1>
+<ul>
+{% for post in collections.all | reverse %}
+  {% if '/posts/' in post.url %}
+    <li>
+      <a href="{{ post.url | url }}">{{ post.data.title or post.fileSlug }}</a>
+      {% if post.data.date %}<span class="muted"> — {{ post.data.date }}</span>{% endif %}
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

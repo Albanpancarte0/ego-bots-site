@@ -1,1 +1,6 @@
-module.exports = () => ({dir:{input:'src',output:'docs'}})
+module.exports = function () {
+  return {
+    dir: { input: "src", output: "docs" },
+    pathPrefix: "/ego-bots-site/"
+  };
+};

@@ -1,0 +1,8 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <h1>{{ title or page.fileSlug }}</h1>
+  {% if date %}<p class="muted">Publié le {{ date }}</p>{% endif %}
+  {{ content | safe }}
+</article>

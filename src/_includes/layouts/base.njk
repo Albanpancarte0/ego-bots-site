@@ -3,16 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Accueil</title>
+  <title>{{ title or "Site" }}</title>
   <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:800px;margin:40px auto;padding:0 16px;line-height:1.55}nav a{margin-right:12px}.muted{opacity:.7;font-size:.9em}</style>
 </head>
 <body>
   <nav>
-    <a href="/ego-bots-site/">Accueil</a>
-    <a href="/ego-bots-site/posts/">Posts</a>
+    <a href="{{ '/' | url }}">Accueil</a>
+    <a href="{{ '/posts/' | url }}">Posts</a>
   </nav>
-  <main><h1>Accueil</h1>
-<p><a href="/ego-bots-site/posts/">Voir les posts →</a></p>
-</main>
+  <main>{{ content | safe }}</main>
 </body>
 </html>
