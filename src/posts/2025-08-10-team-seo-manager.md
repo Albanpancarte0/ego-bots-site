@@ -24,5 +24,3 @@ Contraintes : concret, actionnable, vérifiable.
 - [Keyword Researcher]({{ '/publications/equipes/seo/researcher/' | url }})
 - [On-Page Optimizer]({{ '/publications/equipes/seo/onpage/' | url }})
 - [Quality Assessor]({{ '/publications/equipes/seo/qa/' | url }})
-
-> ⚙️ Ajoute ici ton lien Stripe si tu veux vendre tout le pack d’un coup.
