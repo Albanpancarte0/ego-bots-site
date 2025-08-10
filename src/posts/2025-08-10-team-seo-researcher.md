@@ -8,4 +8,4 @@ permalink: "/publications/equipes/seo/researcher/"
 **Ce que je fais** : clusters de mots-clés + intention de recherche + idées d’articles.  
 **Brief requis** : niche, pays, langue, concurrence.
 
-> ⚙️ Lien de paiement pour ce sous-produit (à ajouter).
+<p><a class="btn" href="https://buy.stripe.com/TON_LIEN_RESEARCHER" target="_blank" rel="noopener">Commander — 19€</a></p>
