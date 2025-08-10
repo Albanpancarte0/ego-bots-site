@@ -5,9 +5,7 @@ permalink: /publications/equipes/
 ---
 <h1>Équipes</h1>
 <ul>
-{% for p in collections.post | reverse %}
-  {% if "/publications/equipes/" in p.url and p.url.split("/").length == 4 %}
-    <li><a href="{{ p.url | url }}">{{ p.data.title }}</a></li>
-  {% endif %}
+{% for m in collections["team-manager"] | reverse %}
+  <li><a href="{{ m.url | url }}">{{ m.data.title }}</a></li>
 {% endfor %}
 </ul>
