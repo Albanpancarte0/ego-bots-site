@@ -1,1 +1,13 @@
-
+---
+title: Équipes
+layout: layouts/base.njk
+permalink: /publications/equipes/
+---
+<h1>Équipes</h1>
+<ul>
+{% for p in collections.post | reverse %}
+  {% if "/publications/equipes/" in p.url and p.url.split("/").length == 4 %}
+    <li><a href="{{ p.url | url }}">{{ p.data.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
