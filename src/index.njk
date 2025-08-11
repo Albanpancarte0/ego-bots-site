@@ -1,6 +1,11 @@
 ---
-title: Accueil
+title: Équipes
 layout: layouts/base.njk
+permalink: /publications/equipes/
 ---
-<h1>Bienvenue 👋</h1>
-<p><a href="{{ '/publications/' | url }}">Voir les publications →</a></p>
+<h1>Équipes</h1>
+<ul>
+{% for p in collections.teamManagers %}
+  <li><a href="{{ p.url | url }}">{{ p.data.title }}</a></li>
+{% endfor %}
+</ul>
