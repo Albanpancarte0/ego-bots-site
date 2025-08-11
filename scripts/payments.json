@@ -4,5 +4,14 @@
     "researcher": "https://pancarte.gumroad.com/l/seo-keywords?checkout=true",
     "onpage": "https://pancarte.gumroad.com/l/seo-onpage?checkout=true",
     "qa": "https://pancarte.gumroad.com/l/seo-qa?checkout=true"
-  }
+  },
+  "ads": { "pack": "", "angles": "", "ugc": "", "landingcopy": "" },
+  "emailcrm": { "pack": "", "onboarding": "", "newsletter": "", "reactivation": "" },
+  "content": { "pack": "", "blogoutline": "", "article": "", "repurpose": "" },
+  "ecommerce": { "pack": "", "productcopy": "", "categoryseo": "", "schema": "" },
+  "social": { "pack": "", "calendar": "", "postgen": "", "hashtag": "" },
+  "local": { "pack": "", "gmb": "", "locallanding": "", "citations": "" },
+  "immobilier": { "pack": "", "listing": "", "quartierguide": "", "followup": "" },
+  "saas": { "pack": "", "landingmsg": "", "pricing": "", "tour": "" },
+  "freelance": { "pack": "", "proposal": "", "case": "", "outreach": "" }
 }
