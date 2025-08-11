@@ -1,10 +1,21 @@
 module.exports = function(eleventyConfig) {
-  // Collection qui liste les pages "manager"
+  // Collection "teamManagers" — détecte même sans le tag
   eleventyConfig.addCollection('teamManagers', (collection) => {
-    return collection.getAll().filter((item) =>
-      Array.isArray(item.data.tags) && item.data.tags.includes('team-manager')
-    );
+    return collection.getAll().filter((item) => {
+      const tags = Array.isArray(item.data.tags) ? item.data.tags : [];
+      const hasTag = tags.includes('team-manager');
+
+      const ip = (item.inputPath || '').toLowerCase();
+      const stem = (item.filePathStem || '').toLowerCase();
+      const byName = ip.endsWith('-manager.md') || stem.endsWith('-manager');
+
+      const perm = (item.data.permalink || '').toString();
+      const byPerm = /^\/publications\/equipes\/[^/]+\/$/.test(perm);
+
+      return hasTag || byName || byPerm;
+    });
   });
+
   return {
     dir: { input: "src", output: "docs" },
     pathPrefix: "/ego-bots-site/"
