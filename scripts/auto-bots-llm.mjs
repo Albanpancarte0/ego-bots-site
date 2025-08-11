@@ -1,8 +1,13 @@
-import fs from "fs";
-import path from "path";
+// scripts/auto-bots-llm.mjs
+import fs from "node:fs";
+import path from "node:path";
 import { chat } from "./llm.mjs";
 
-// ==== CONFIG DES ÉQUIPES ====
+// ==== DATE & SORTIE ====
+const DATE = new Date().toISOString().slice(0,10);
+const OUT_DIR = path.join("src", "posts");
+
+// ==== CONFIG DES ÉQUIPES (inchangée, c’est la tienne) ====
 const TEAMS = [
   // existantes
   { slug: "seo", manager: "Manager SEO",
@@ -81,9 +86,6 @@ const BOT_SYSTEM = (role) => `Tu es "${role}". Suis le brief et rends un livrabl
 
 const QA_SYSTEM = `Contrôleur qualité: note 0-5 chaque critère, propose corrections, et fournis une version révisée finale du livrable.`;
 
-const DATE = new Date().toISOString().slice(0,10);
-const OUT_DIR = "src/posts";
-
 // ==== HELPERS ====
 function writeFile(rel, content) {
   const f = path.join(OUT_DIR, rel);
@@ -91,12 +93,31 @@ function writeFile(rel, content) {
   fs.writeFileSync(f, content);
   return f;
 }
-const fmTeam = ({title, slug}) =>
-  `---\ntitle: "${title}"\ndate: "${DATE}"\ntags: ["post"]\nlayout: layouts/post.njk\npermalink: "/publications/equipes/${slug}/"\n---\n`;
-const fmChild = ({title, teamSlug, childSlug}) =>
-  `---\ntitle: "${title}"\ndate: "${DATE}"\ntags: ["post"]\nlayout: layouts/post.njk\npermalink: "/publications/equipes/${teamSlug}/${childSlug}/"\n---\n`;
 
+// tag ajouté: "team-manager"
+const fmTeam = ({title, slug}) =>
+  `---\ntitle: "${title}"\ndate: "${DATE}"\ntags: ["post","team-manager"]\nlayout: layouts/post.njk\npermalink: "/publications/equipes/${slug}/"\n---\n`;
+
+// tag pour les bots: "team-bot" (optionnel mais utile)
+const fmChild = ({title, teamSlug, childSlug}) =>
+  `---\ntitle: "${title}"\ndate: "${DATE}"\ntags: ["post","team-bot"]\nlayout: layouts/post.njk\npermalink: "/publications/equipes/${teamSlug}/${childSlug}/"\n---\n`;
+
+// supprime les anciens fichiers d'une équipe (évite les conflits Eleventy)
+function cleanupOldTeamFiles(teamSlug) {
+  if (!fs.existsSync(OUT_DIR)) return;
+  const files = fs.readdirSync(OUT_DIR);
+  for (const f of files) {
+    if (f.endsWith(".md") && f.includes(`-team-${teamSlug}-`) && !f.startsWith(`${DATE}-`)) {
+      fs.unlinkSync(path.join(OUT_DIR, f));
+      console.log("Removed old", f);
+    }
+  }
+}
+
+// ==== PIPELINE PAR ÉQUIPE ====
 async function runTeam(team) {
+  cleanupOldTeamFiles(team.slug);
+
   // 1) Brief du manager
   const brief = await chat({
     system: MANAGER_SYSTEM,
@@ -124,21 +145,27 @@ async function runTeam(team) {
     fmTeam({ title: team.manager, slug: team.slug }) +
     `## Brief du manager\n\n${brief}\n\n` +
     `## Livrables\n` +
-    team.bots.map(b => `- [${b.name}](/publications/equipes/${team.slug}/${b.slug}/)`).join("\n") +
-    `\n\n> ⚙️ Ajoute ici ton lien Stripe pour commander le pack.\n`;
+    team.bots
+      .map(b => `- [${b.name}]({{ '/publications/equipes/${team.slug}/${b.slug}/' | url }})`)
+      .join("\n") +
+    `\n\n> ⚙️ Ajoute ici ton lien de paiement pour commander le pack.\n`;
   writeFile(`${DATE}-team-${team.slug}-manager.md`, managerMd);
 
   for (const b of team.bots) {
     const botMd =
       fmChild({ title: `${b.name} — ${team.manager}`, teamSlug: team.slug, childSlug: b.slug }) +
-      outputs[b.slug] + `\n\n> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.\n`;
+      outputs[b.slug] +
+      `\n\n> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.\n`;
     writeFile(`${DATE}-team-${team.slug}-${b.slug}.md`, botMd);
   }
 
-  const qaMd = fmChild({ title: `QA — ${team.manager}`, teamSlug: team.slug, childSlug: "qa-report" }) + qa;
+  const qaMd =
+    fmChild({ title: `QA — ${team.manager}`, teamSlug: team.slug, childSlug: "qa-report" }) +
+    qa;
   writeFile(`${DATE}-team-${team.slug}-qa.md`, qaMd);
 }
 
+// ==== MAIN ====
 async function main() {
   for (const t of TEAMS) {
     console.log("▶ Team:", t.slug);
