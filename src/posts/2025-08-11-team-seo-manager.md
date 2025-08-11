@@ -1,7 +1,7 @@
 ---
 title: "Manager SEO"
 date: "2025-08-11"
-tags: ["post"]
+tags: ["post","team-manager"]
 layout: layouts/post.njk
 permalink: "/publications/equipes/seo/"
 ---
