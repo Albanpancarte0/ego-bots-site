@@ -5,7 +5,7 @@ permalink: /publications/equipes/
 ---
 <h1>Équipes</h1>
 <ul>
-{% for m in collections["team-manager"] | reverse %}
-  <li><a href="{{ m.url | url }}">{{ m.data.title }}</a></li>
+{% for p in collections.teamManagers %}
+  <li><a href="{{ p.url | url }}">{{ p.data.title }}</a></li>
 {% endfor %}
 </ul>
