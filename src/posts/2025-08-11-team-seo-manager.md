@@ -15,8 +15,8 @@ Objectif: Sortir un plan SEO monétisable pour une niche précise avec une page 
 Rends un BRIEF utile et mesurable pour guider 3 bots.
 
 ## Livrables
-- [Keyword Researcher](/publications/equipes/seo/researcher/)
-- [On-Page Optimizer](/publications/equipes/seo/onpage/)
-- [Quality Assessor](/publications/equipes/seo/qa/)
+- [Keyword Researcher]({{ '/publications/equipes/seo/researcher/' | url }})
+- [On-Page Optimizer]({{ '/publications/equipes/seo/onpage/' | url }})
+- [Quality Assessor]({{ '/publications/equipes/seo/qa/' | url }})
 
 > ⚙️ Ajoute ici ton lien Stripe pour commander le pack.
