@@ -6,9 +6,3 @@ permalink: /
 <h1>Bienvenue 👋</h1>
 <p><a href="{{ '/publications/' | url }}">Voir les publications →</a></p>
 <p><a href="{{ '/publications/equipes/' | url }}">Voir les équipes →</a></p>
-<h1>Équipes</h1>
-<ul>
-{% for p in collections.teamManagers %}
-  <li><a href="{{ p.url | url }}">{{ p.data.title }}</a></li>
-{% endfor %}
-</ul>
