@@ -159,10 +159,8 @@ async function runTeam(team) {
     writeFile(`${DATE}-team-${team.slug}-${b.slug}.md`, botMd);
   }
 
-  const qaMd =
-    fmChild({ title: `QA — ${team.manager}`, teamSlug: team.slug, childSlug: "qa-report" }) +
-    qa;
-  writeFile(`${DATE}-team-${team.slug}-qa.md`, qaMd);
+const qaMd = fmChild({ title: `QA — ${team.manager}`, teamSlug: team.slug, childSlug: "qa-report" }) + qa;
+writeFile(`${DATE}-team-${team.slug}-qa-report.md`, qaMd);
 }
 
 // ==== MAIN ====
