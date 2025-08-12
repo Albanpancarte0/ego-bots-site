@@ -2,15 +2,11 @@ name: Auto-génération équipes de bots
 
 on:
   schedule:
-    - cron: "5 5 * * *"   # tous les jours 05:05 UTC
+    - cron: "5 5 * * *"   # tous les jours à 05:05 UTC
   workflow_dispatch: {}
 
 permissions:
   contents: write
-
-concurrency:
-  group: auto-bots
-  cancel-in-progress: true
 
 jobs:
   auto:
@@ -22,19 +18,17 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci || npm i --no-audit --no-fund
-
-      - name: Génère l'armée via LLM
+      - name: Génère les pages (manager + 3 bots par équipe)
         run: npm run bots:llm
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
-
+          LLM_API_KEY:  ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL:    ${{ secrets.LLM_MODEL }}
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: auto-bots (llm)" || echo "rien à committer"
+          git commit -m "chore: auto-bots" || echo "rien à committer"
           git push
