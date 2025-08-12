@@ -6,13 +6,14 @@ layout: layouts/post.njk
 permalink: "/publications/equipes/ads/angles/"
 ---
 *(fallback)* BRIEF:
-# BRIEF - Pack Publicitaire
+# BRIEF : Pack Publicitaire
 
 ## Contexte
-Nous avons pour objectif de créer un pack publicitaire complet comprenant 10 angles créatifs, des scripts UGC (User Generated Content) et un copy pour une landing page. Ce pack sera utilisé pour promouvoir notre nouveau produit sur les réseaux sociaux et améliorer notre taux de conversion.
+Dans le cadre de notre campagne publicitaire, nous avons besoin de créer un pack publicitaire comprenant 10 angles créatifs, des scripts UGC (User Generated Content) et un copy optimisé pour la landing page. L'objectif est d'attirer et de convertir notre audience cible en clients.
 
 ## Audience
-Notre audience cible est composée de jeunes adultes âgés de 18 à 30 ans, intéressés par les nouvelles technologies et les tendances lifestyle. Ils s
+- **Cible principale** : Jeunes adultes de 18 à 30 ans, utilisateurs fréquents des réseaux sociaux, intéressés par les tendances et les produits innovants.
+-
 
 - Sections
 - Concrètes

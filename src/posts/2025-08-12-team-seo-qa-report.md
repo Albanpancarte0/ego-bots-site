@@ -6,18 +6,17 @@ layout: layouts/post.njk
 permalink: /publications/equipes/seo/qa-report/
 ---
 *(fallback)* BRIEF:
-# BRIEF SEO Monétisable
+# BRIEF SEO - Plan Monétisable
 
 ## Contexte
-Nous souhaitons développer un plan SEO pour une niche précise qui permettra de générer des revenus. L'objectif est de créer une page 'offre' optimisée et prête à vendre, en utilisant des techniques SEO éprouvées pour attirer et convertir des visiteurs.
+Nous souhaitons développer un plan SEO solide pour une niche précise (ex: produits écologiques) afin de générer du trafic qualifié et de maximiser les opportunités de monétisation. Ce plan inclura une page 'offre' optimisée pour la conversion.
 
 ## Audience
-- Entrepreneurs et PME dans la niche ciblée
-- Professionnels du marketing digital
-- Utilisateurs à la recherche de solutions spécifiques dans la niche
+- Entrepreneurs et PME dans le secteur des produits écologiques.
+- Marketeurs cherchant à améliorer leur visibilité en ligne.
+- Utilisateurs finaux intéressés par des produits durables.
 
-## Promesse
-Développer un plan SEO dét
+## Pr
 
 - Sections
 - Concrètes

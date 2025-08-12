@@ -5,55 +5,49 @@ tags: ["post","team-manager"]
 layout: layouts/post.njk
 permalink: "/publications/equipes/seo/"
 ---
-
 ## Brief du manager
 
-# BRIEF SEO Monétisable
+# BRIEF SEO - Plan Monétisable
 
 ## Contexte
-Nous souhaitons développer un plan SEO pour une niche précise qui permettra de générer des revenus. L'objectif est de créer une page 'offre' optimisée et prête à vendre, en utilisant des techniques SEO éprouvées pour attirer et convertir des visiteurs.
+Nous souhaitons développer un plan SEO solide pour une niche précise (ex: produits écologiques) afin de générer du trafic qualifié et de maximiser les opportunités de monétisation. Ce plan inclura une page 'offre' optimisée pour la conversion.
 
 ## Audience
-- Entrepreneurs et PME dans la niche ciblée
-- Professionnels du marketing digital
-- Utilisateurs à la recherche de solutions spécifiques dans la niche
+- Entrepreneurs et PME dans le secteur des produits écologiques.
+- Marketeurs cherchant à améliorer leur visibilité en ligne.
+- Utilisateurs finaux intéressés par des produits durables.
 
 ## Promesse
-Développer un plan SEO détaillé et une page 'offre' qui :
-- Augmente la visibilité sur les moteurs de recherche
-- Attire un trafic qualifié
-- Convertit les visiteurs en clients
+Fournir un plan SEO détaillé et une page 'offre' qui augmentent la visibilité en ligne et les conversions, garantissant une rentabilité à court terme.
 
 ## Contraintes
-- Respecter les meilleures pratiques SEO actuelles
-- Ne pas dépasser un budget de 500€ pour les outils et ressources nécessaires
-- Livrer le projet en 4 semaines
+- Respecter les meilleures pratiques SEO en vigueur.
+- La page 'offre' doit être prête à l'emploi et facilement modifiable.
+- Deadline : 4 semaines à partir de la date de début.
 
 ## Livrables
-1. **Analyse de la concurrence** : Rapport sur les stratégies SEO des concurrents dans la niche.
+1. **Analyse de la concurrence** : Rapport sur les concurrents dans la niche choisie.
 2. **Recherche de mots-clés** : Liste de mots-clés pertinents avec volume de recherche et difficulté.
-3. **Plan de contenu** : Calendrier éditorial avec des sujets optimisés pour le SEO.
-4. **Page 'offre'** : Rédaction d'une page de vente optimisée pour le SEO, incluant des appels à l'action clairs.
-5. **Audit SEO** : Rapport final sur l'optimisation de la page et recommandations.
+3. **Plan de contenu** : Calendrier éditorial avec sujets, types de contenu et fréquence de publication.
+4. **Page 'offre'** : Design et contenu optimisés pour la conversion, incluant des appels à l'action clairs.
 
 ## Critères qualité (0-5)
 - **Pertinence des mots-clés** : 0-5
-- **Clarté et attrait de la page 'offre'** : 0-5
+- **Clarté et structure du plan de contenu** : 0-5
+- **Efficacité de la page 'offre' (conversion)** : 0-5
+- **Respect des délais** : 0-5
 - **Conformité aux meilleures pratiques SEO** : 0-5
-- **Capacité à générer du trafic** : 0-5
-- **Potentiel de conversion** : 0-5
 
 ## Checklist finale
-- [ ] Analyse de la concurrence complétée
-- [ ] Liste de mots-clés validée
-- [ ] Plan de contenu élaboré
-- [ ] Page 'offre' rédigée et optimisée
-- [ ] Audit SEO effectué et rapport finalisé
-- [ ] Révisions et ajustements effectués selon les retours
+- [ ] Analyse de la concurrence complétée.
+- [ ] Liste de mots-clés validée.
+- [ ] Plan de contenu élaboré et approuvé.
+- [ ] Page 'offre' créée et testée.
+- [ ] Rapport final sur les résultats et recommandations. 
 
 ---
 
-Ce brief servira de guide pour les 3 bots spécialisés afin de garantir un travail cohérent et orienté vers les résultats.
+Ce brief doit servir de guide pour les trois bots afin de garantir un travail cohérent et efficace dans le développement de notre stratégie SEO.
 
 ## Livrables
 - [Keyword Researcher]({{ '/publications/equipes/seo/researcher/' | url }})
