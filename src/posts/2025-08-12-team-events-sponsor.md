@@ -3,7 +3,7 @@ title: "Sponsor Kit — Manager Événementiel"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/events/sponsor/"
+permalink: /publications/equipes/events/sponsor/
 ---
 # Sponsor Kit
 

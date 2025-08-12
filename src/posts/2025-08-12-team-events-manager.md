@@ -3,7 +3,7 @@ title: "Manager Événementiel"
 date: "2025-08-12"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/events/"
+permalink: /publications/equipes/events/
 ---
 ## Brief du manager
 

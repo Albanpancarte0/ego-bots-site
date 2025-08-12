@@ -3,7 +3,7 @@ title: "Local SEO Fixer — Manager Local"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/local/localfix/"
+permalink: /publications/equipes/local/localfix/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: local

@@ -3,7 +3,7 @@ title: "Script Visite — Manager Immobilier"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/immobilier/visite/"
+permalink: /publications/equipes/immobilier/visite/
 ---
 *(fallback)* BRIEF:
 # BRIEF - Projet Immobilier

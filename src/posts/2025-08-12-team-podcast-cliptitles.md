@@ -3,7 +3,7 @@ title: "Clip Titles — Manager Podcast/Video"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/podcast/cliptitles/"
+permalink: /publications/equipes/podcast/cliptitles/
 ---
 *(fallback)* BRIEF:
 # Brief pour la Planification d'Épisode de Podcast

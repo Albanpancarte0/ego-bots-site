@@ -3,7 +3,7 @@ title: "Abandoned Cart Emailer — Manager E-commerce"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ecommerce/email/"
+permalink: /publications/equipes/ecommerce/email/
 ---
 *(fallback)* BRIEF:
 # BRIEF E-commerce

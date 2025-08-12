@@ -3,7 +3,7 @@ title: "FAQ Writer — Manager SaaS"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/saas/faq/"
+permalink: /publications/equipes/saas/faq/
 ---
 *(fallback)* BRIEF:
 # BRIEF DE PROJET

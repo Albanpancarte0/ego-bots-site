@@ -3,7 +3,7 @@ title: "Episode Outline — Manager Podcast/Video"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/podcast/outline/"
+permalink: /publications/equipes/podcast/outline/
 ---
 # Plan d'Épisode
 

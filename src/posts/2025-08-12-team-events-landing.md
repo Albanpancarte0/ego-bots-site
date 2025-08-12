@@ -3,7 +3,7 @@ title: "Event Landing — Manager Événementiel"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/events/landing/"
+permalink: /publications/equipes/events/landing/
 ---
 # Livrables pour l'Événement
 

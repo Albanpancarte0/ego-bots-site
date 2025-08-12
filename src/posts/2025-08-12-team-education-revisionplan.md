@@ -3,7 +3,7 @@ title: "Plan de révision — Manager Éducation"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/education/revisionplan/"
+permalink: /publications/equipes/education/revisionplan/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: education

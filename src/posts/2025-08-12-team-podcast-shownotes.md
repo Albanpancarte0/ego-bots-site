@@ -3,7 +3,7 @@ title: "Show Notes — Manager Podcast/Video"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/podcast/shownotes/"
+permalink: /publications/equipes/podcast/shownotes/
 ---
 *(fallback)* BRIEF:
 # Brief pour la Planification d'Épisode de Podcast

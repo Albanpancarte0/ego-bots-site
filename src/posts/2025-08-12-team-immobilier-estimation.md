@@ -3,7 +3,7 @@ title: "Guide Estimation — Manager Immobilier"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/immobilier/estimation/"
+permalink: /publications/equipes/immobilier/estimation/
 ---
 *(fallback)* BRIEF:
 # BRIEF - Projet Immobilier

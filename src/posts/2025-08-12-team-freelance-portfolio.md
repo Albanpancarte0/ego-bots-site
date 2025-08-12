@@ -3,7 +3,7 @@ title: "Portfolio Polisher — Manager Freelance"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/freelance/portfolio/"
+permalink: /publications/equipes/freelance/portfolio/
 ---
 *(fallback)* BRIEF:
 # BRIEF : Proposition de Services Freelance

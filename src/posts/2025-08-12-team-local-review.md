@@ -3,7 +3,7 @@ title: "Review Reply Pro — Manager Local"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/local/review/"
+permalink: /publications/equipes/local/review/
 ---
 # Brief pour l'Optimisation de la Présence Locale
 

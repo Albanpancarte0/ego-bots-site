@@ -3,7 +3,7 @@ title: "Manager Contenu"
 date: "2025-08-12"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/content/"
+permalink: /publications/equipes/content/
 ---
 ## Brief du manager
 

@@ -3,7 +3,7 @@ title: "Manager Personal Branding"
 date: "2025-08-12"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/branding/"
+permalink: /publications/equipes/branding/
 ---
 ## Brief du manager
 

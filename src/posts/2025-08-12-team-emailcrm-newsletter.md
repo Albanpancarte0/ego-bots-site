@@ -3,7 +3,7 @@ title: "Newsletter Builder — Manager Email & CRM"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/emailcrm/newsletter/"
+permalink: /publications/equipes/emailcrm/newsletter/
 ---
 # Brief pour la Création de Séquences Email
 

@@ -3,7 +3,7 @@ title: "Reactivation Flow — Manager Email & CRM"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/emailcrm/reactivation/"
+permalink: /publications/equipes/emailcrm/reactivation/
 ---
 # Brief pour le Reactivation Flow
 

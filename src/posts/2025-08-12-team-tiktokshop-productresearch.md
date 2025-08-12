@@ -3,7 +3,7 @@ title: "Product Research — Manager TikTok Shop"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/tiktokshop/productresearch/"
+permalink: /publications/equipes/tiktokshop/productresearch/
 ---
 *(fallback)* BRIEF:
 # BRIEF - Projet TikTok Shop

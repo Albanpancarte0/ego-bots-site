@@ -3,7 +3,7 @@ title: "Blog Outliner — Manager Contenu"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/content/outline/"
+permalink: /publications/equipes/content/outline/
 ---
 *(fallback)* BRIEF:
 # Brief de Projet

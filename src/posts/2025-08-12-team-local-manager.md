@@ -3,7 +3,7 @@ title: "Manager Local"
 date: "2025-08-12"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/local/"
+permalink: /publications/equipes/local/
 ---
 ## Brief du manager
 
