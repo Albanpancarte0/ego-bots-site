@@ -3,13 +3,13 @@ export async function chat({ system, user }) {
   const base   = process.env.LLM_BASE_URL || "https://api.openai.com/v1";
   const model  = process.env.LLM_MODEL || "gpt-4o-mini";
 
-  // Fallback si pas de clé (ne casse pas le build)
-  const fallback = `*(fallback)* ${user.slice(0, 500)}\n\n- Sections\n- Concrètes\n- Livrable prêt`;
+  // Fallback si pas de clé: ne bloque pas la génération
+  const fallback = `*(fallback)* ${user.slice(0, 600)}\n\n- Sections\n- Concrètes\n- Livrable prêt`;
   if (!apiKey) return fallback;
 
   try {
     const controller = new AbortController();
-    const t = setTimeout(() => controller.abort(), 20000); // 20s
+    const t = setTimeout(() => controller.abort(), 20000); // 20s timeout
     const res = await fetch(`${base}/chat/completions`, {
       method: "POST",
       headers: {
