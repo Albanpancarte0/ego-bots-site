@@ -4,5 +4,17 @@
     "researcher": "https://pancarte.gumroad.com/l/seo-keywords?checkout=true",
     "onpage": "https://pancarte.gumroad.com/l/seo-onpage?checkout=true",
     "qa": "https://pancarte.gumroad.com/l/seo-qa?checkout=true"
+  },
+  "ads": {
+    "pack": "https://pancarte.gumroad.com/l/pack-ads?checkout=true",
+    "angles": "https://pancarte.gumroad.com/l/ads-angles?checkout=true",
+    "ugc": "https://pancarte.gumroad.com/l/ads-ugc?checkout=true",
+    "landingcopy": "https://pancarte.gumroad.com/l/ads-landing?checkout=true"
+  },
+  "content": {
+    "pack": "",
+    "outline": "",
+    "writer": "",
+    "qa": ""
   }
 }
