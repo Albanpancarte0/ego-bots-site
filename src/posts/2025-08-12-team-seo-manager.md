@@ -1,11 +1,10 @@
 ---
-title: "Keyword Researcher — Manager SEO"
-date: 2025-08-12
-tags: ["post","team-bot"]
+title: "Manager SEO"
+date: "2025-08-12"
+tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: /publications/equipes/seo/researcher/
+permalink: "/publications/equipes/seo/"
 ---
-(Contenu du livrable “researcher” ici — ou laisse vide, le script le remplira au prochain run.)
 
 ## Brief du manager
 
