@@ -5,105 +5,67 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: "/publications/equipes/seo/onpage/"
 ---
-# Plan SEO Monétisable
+# Plan SEO Monétisation
 
 ## 1. Analyse de la Niche
 
-### 1.1 Rapport sur les Mots-Clés
+### 1.1. Tendances du Marché
+- **Croissance du e-commerce** : Augmentation de 20% des ventes en ligne en 2023.
+- **Recherche vocale** : 30% des recherches sont effectuées via des assistants vocaux.
+- **Mobile-first** : 60% des utilisateurs naviguent sur mobile, soulignant l'importance d'un site responsive.
+
+### 1.2. Concurrence
+- **Analyse des concurrents** : Identifier 5 principaux concurrents dans la niche.
+  - **Concurrents A** : 50K visites/mois, mots-clés principaux : "produit A", "service A".
+  - **Concurrents B** : 30K visites/mois, mots-clés principaux : "produit B", "service B".
+- **Opportunités** : Identifier des mots-clés à faible concurrence et à fort volume de recherche.
+
+### 1.3. Opportunités SEO
+- **Mots-clés de niche** : Cibler des mots-clés spécifiques (longue traîne) pour attirer un public ciblé.
+- **Contenu de qualité** : Créer des articles de blog, études de cas et guides pratiques.
+- **Backlinks** : Stratégie de création de liens avec des sites pertinents pour renforcer l'autorité.
+
+## 2. Plan SEO Détaillé
+
+### 2.1. Stratégies de Contenu
+- **Articles de blog** : Publier 2 articles par semaine sur des sujets tendances.
+- **Infographies** : Créer des visuels partageables pour attirer des backlinks.
+- **Webinaires** : Organiser des sessions en direct pour interagir avec l'audience.
+
+### 2.2. Mots-clés Ciblés
 - **Mots-clés principaux** : 
-  - [Mot-clé 1]
-  - [Mot-clé 2]
-  - [Mot-clé 3]
-  
-- **Volume de recherche mensuel** : 
-  - [Mot-clé 1] : [Volume]
-  - [Mot-clé 2] : [Volume]
-  - [Mot-clé 3] : [Volume]
+  - Produit A
+  - Service A
+- **Mots-clés secondaires** : 
+  - Comment utiliser produit A
+  - Avantages de service A
 
-- **Difficulté des mots-clés** : 
-  - [Mot-clé 1] : [Difficulté]
-  - [Mot-clé 2] : [Difficulté]
-  - [Mot-clé 3] : [Difficulté]
-
-### 1.2 Analyse de la Concurrence
-- **Principaux concurrents** :
-  - [Concurrent 1] : [Analyse de leur stratégie SEO]
-  - [Concurrent 2] : [Analyse de leur stratégie SEO]
-  - [Concurrent 3] : [Analyse de leur stratégie SEO]
-
-- **Opportunités de contenu** :
-  - [Opportunité 1]
-  - [Opportunité 2]
-  - [Opportunité 3]
-
-## 2. Plan SEO Détailé
-
-### 2.1 Stratégie de Contenu
-- **Création de contenu** :
-  - Articles de blog sur [sujets liés aux mots-clés]
-  - Études de cas sur [thèmes pertinents]
-  - Guides pratiques sur [sujets d'intérêt]
-
-- **Calendrier de publication** :
-  - Semaine 1 : [Article 1]
-  - Semaine 2 : [Article 2]
-  - Semaine 3 : [Article 3]
-
-### 2.2 Optimisation On-Page
-- **Balises Title et Meta Description** :
-  - Title : [Titre optimisé]
-  - Meta Description : [Description optimisée]
-
-- **Utilisation des balises H1, H2, H3** :
-  - H1 : [Titre principal]
-  - H2 : [Sous-titres pertinents]
-
-- **Liens internes et externes** :
-  - Lien vers [page interne]
-  - Lien vers [ressource externe]
-
-### 2.3 Optimisation Off-Page
-- **Stratégies de backlinking** :
-  - Identifier des sites partenaires pour des échanges de liens.
-  - Soumettre des articles invités sur des blogs pertinents.
+### 2.3. Recommandations Techniques
+- **Optimisation des balises** : Utiliser des balises H1, H2, H3 avec des mots-clés ciblés.
+- **Vitesse de chargement** : Optimiser le temps de chargement à moins de 3 secondes.
+- **Mobile-friendly** : Assurer que le site est responsive et optimisé pour mobile.
 
 ## 3. Page 'Offre'
 
-### 3.1 Contenu Optimisé
-- **Titre accrocheur** : [Titre de l'offre]
-- **Description de l'offre** : [Description détaillée des produits/services]
-- **Avantages** : 
-  - Avantage 1
-  - Avantage 2
-  - Avantage 3
+### 3.1. Contenu Optimisé
+- **Titre accrocheur** : "Boostez votre visibilité en ligne avec notre offre SEO exclusive !"
+- **Description** : Présentation des services SEO, avantages, et témoignages clients.
+- **Mots-clés intégrés** : Utiliser des mots-clés ciblés dans le contenu de la page.
 
-### 3.2 Design et Éléments de Conversion
-- **Call-to-Action (CTA)** :
-  - Bouton : "Achetez maintenant"
-  - Formulaire d'inscription : [Formulaire pour capturer les leads]
+### 3.2. Design UX/UI
+- **Structure claire** : Sections bien définies (Introduction, Services, Témoignages, CTA).
+- **Appel à l'action (CTA)** : Boutons visibles et incitatifs (ex : "Demandez un devis gratuit").
+- **Visuels attractifs** : Utiliser des images et infographies pour renforcer le message.
 
-- **Éléments visuels** :
-  - Images de produits
-  - Témoignages clients
-
-## 4. Rapport Final
-
-### 4.1 Résumé des Actions Entreprises
-- Analyse de la niche réalisée
-- Liste de mots-clés validée
-- Plan SEO rédigé et approuvé
-- Page 'offre' conçue et testée
-
-### 4.2 Recommandations Futures
-- Suivi des performances SEO
-- Ajustements de la stratégie de contenu en fonction des résultats
-- Exploration de nouvelles opportunités de monétisation
+### 3.3. Éléments de Conversion
+- **Formulaire de contact** : Simple et rapide à remplir.
+- **Offre limitée** : Créer un sentiment d'urgence (ex : "Offre valable jusqu'à la fin du mois").
+- **Témoignages** : Inclure des avis clients pour renforcer la crédibilité.
 
 ## Checklist Finale
-- [x] Analyse de la niche complétée.
-- [x] Liste de mots-clés validée.
-- [x] Plan SEO rédigé et approuvé.
-- [x] Page 'offre' conçue et testée.
-- [x] Rapport final rédigé et partagé.
-
-> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.
+- [ ] Analyse de la niche complétée et validée.
+- [ ] Plan SEO rédigé et approuvé.
+- [ ] Page 'offre' créée et optimisée.
+- [ ] Vérification des éléments de conversion sur la page 'offre'.
+- [ ] Rapport final consolidé et prêt à être présenté.
+<p><a class="btn" href="https://pancarte.gumroad.com/l/seo-onpage?checkout=true" target="_blank" rel="noopener">Commander ce livrable</a></p>

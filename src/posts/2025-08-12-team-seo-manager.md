@@ -7,48 +7,48 @@ permalink: "/publications/equipes/seo/"
 ---
 ## Brief du manager
 
-# BRIEF SEO Monétisable
+# BRIEF SEO Monétisation
 
 ## Contexte
-Nous souhaitons développer un plan SEO monétisable pour une niche précise. L'objectif est de créer une page 'offre' optimisée qui sera prête à vendre des produits ou services liés à cette niche. Ce projet doit tirer parti des meilleures pratiques SEO pour assurer une visibilité maximale sur les moteurs de recherche.
+Dans un marché numérique en constante évolution, il est essentiel de développer des stratégies SEO efficaces pour capter l'attention des utilisateurs et générer des revenus. Ce projet vise à élaborer un plan SEO monétisable pour une niche spécifique, accompagné d'une page 'offre' optimisée pour la conversion.
 
 ## Audience
-- Entrepreneurs et PME dans la niche ciblée.
-- Utilisateurs à la recherche de solutions spécifiques dans cette niche.
-- Professionnels du marketing digital cherchant à comprendre les opportunités de monétisation.
+- Entrepreneurs et propriétaires de petites entreprises dans la niche ciblée.
+- Marketeurs numériques cherchant à améliorer leur visibilité en ligne.
+- Professionnels du SEO souhaitant diversifier leurs offres.
 
 ## Promesse
-Fournir un plan SEO complet et une page 'offre' prête à être commercialisée, qui augmentera la visibilité en ligne et générera des conversions.
+Fournir un plan SEO détaillé et une page 'offre' prête à vendre, qui maximisera la visibilité et le potentiel de revenus dans la niche choisie.
 
 ## Contraintes
-- Respecter les meilleures pratiques SEO (mots-clés, balisage, etc.).
-- La page 'offre' doit être conçue pour la conversion (call-to-action, design attrayant).
-- Le plan doit être réalisable dans un délai de 4 semaines.
-- Budget limité pour les outils externes.
+- Le plan doit être basé sur des données SEO récentes et des tendances de marché.
+- La page 'offre' doit être optimisée pour le SEO (mots-clés, balisage, etc.) et pour la conversion (CTA, design).
+- Le projet doit être achevé en 4 semaines.
 
 ## Livrables
-1. **Analyse de la niche** : Rapport sur les mots-clés, la concurrence et les opportunités de contenu.
-2. **Plan SEO détaillé** : Stratégie de contenu, optimisation on-page et off-page.
-3. **Page 'offre'** : Contenu optimisé, design et éléments de conversion.
-4. **Rapport final** : Résumé des actions entreprises et recommandations futures.
+1. **Analyse de la niche** : Rapport sur les tendances, la concurrence et les opportunités SEO.
+2. **Plan SEO détaillé** : Stratégies de contenu, mots-clés ciblés, et recommandations techniques.
+3. **Page 'offre'** : Contenu optimisé, design UX/UI, et éléments de conversion.
 
 ## Critères qualité (0-5)
-- **Pertinence des mots-clés** : 0-5
-- **Qualité du contenu** : 0-5
-- **Optimisation technique** : 0-5
-- **Efficacité de la page 'offre'** : 0-5
-- **Clarté du rapport final** : 0-5
+- **Pertinence de l'analyse de la niche** : 0-5
+- **Efficacité du plan SEO** : 0-5
+- **Qualité de la page 'offre' (contenu et design)** : 0-5
+- **Optimisation SEO de la page 'offre'** : 0-5
+- **Clarté et structure des livrables** : 0-5
 
 ## Checklist finale
-- [ ] Analyse de la niche complétée.
-- [ ] Liste de mots-clés validée.
+- [ ] Analyse de la niche complétée et validée.
 - [ ] Plan SEO rédigé et approuvé.
-- [ ] Page 'offre' conçue et testée.
-- [ ] Rapport final rédigé et partagé.
+- [ ] Page 'offre' créée et optimisée.
+- [ ] Vérification des éléments de conversion sur la page 'offre'.
+- [ ] Rapport final consolidé et prêt à être présenté.
 
 ## Livrables
 - [Keyword Researcher]({{ '/publications/equipes/seo/researcher/' | url }})
 - [On-Page Optimizer]({{ '/publications/equipes/seo/onpage/' | url }})
 - [Quality Assessor]({{ '/publications/equipes/seo/qa/' | url }})
 
-> ⚙️ Ajoute ici ton lien de paiement pour commander le pack.
+<p><a class="btn" href="https://pancarte.gumroad.com/l/pack-seo?checkout=true" target="_blank" rel="noopener">Commander le PACK — 79€</a></p>
+
+> ⚙️ Ajoute/édite les liens dans src/_data/payments.json
