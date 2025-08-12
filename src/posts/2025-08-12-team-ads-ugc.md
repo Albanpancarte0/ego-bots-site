@@ -6,13 +6,13 @@ layout: layouts/post.njk
 permalink: "/publications/equipes/ads/ugc/"
 ---
 *(fallback)* BRIEF:
-# BRIEF DE PLANIFICATION DU TRAVAIL DES BOTS
+# BRIEF - Pack Publicitaire
 
 ## Contexte
-Nous avons besoin de créer un pack publicitaire complet pour promouvoir notre nouveau produit. Ce pack doit inclure 10 angles créatifs, des scripts pour des vidéos générées par les utilisateurs (UGC) et un copy efficace pour la landing page. L'objectif est d'attirer l'attention, d'engager les utilisateurs et de maximiser les conversions.
+Nous avons pour objectif de créer un pack publicitaire complet comprenant 10 angles créatifs, des scripts UGC (User Generated Content) et un copy pour une landing page. Ce pack sera utilisé pour promouvoir notre nouveau produit sur les réseaux sociaux et améliorer notre taux de conversion.
 
 ## Audience
-- **Cible principale** : Jeunes adultes (18-35 ans) intéressés par les nouvelles t
+Notre audience cible est composée de jeunes adultes âgés de 18 à 30 ans, intéressés par les nouvelles technologies et les tendances lifestyle. Ils s
 
 - Sections
 - Concrètes

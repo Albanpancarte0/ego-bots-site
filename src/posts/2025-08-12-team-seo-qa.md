@@ -5,58 +5,109 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/seo/qa/
 ---
-# Livrable : Plan SEO Monétisation
+# Plan SEO Monétisable
 
-## 1. Analyse de la niche
+## 1. Analyse de la concurrence
 
-### 1.1. Tendances du marché
-- **Croissance du e-commerce** : Augmentation des achats en ligne, avec une préférence pour les boutiques spécialisées.
-- **Recherche vocale** : Émergence de la recherche vocale, nécessitant des contenus optimisés pour les requêtes conversationnelles.
-- **Durabilité et éthique** : Les consommateurs privilégient les marques éthiques et durables.
+### Objectif
+Évaluer les stratégies SEO des principaux concurrents dans la niche ciblée pour identifier les opportunités et les menaces.
 
-### 1.2. Concurrence
-- **Analyse des principaux concurrents** : Identification des leaders de la niche, analyse de leurs stratégies SEO, contenu et backlinks.
-- **Opportunités de différenciation** : Propositions de valeur uniques non exploitées par les concurrents.
+### Étapes
+- **Identification des concurrents** : Sélectionner 5 à 10 concurrents directs.
+- **Analyse des mots-clés** : Utiliser des outils comme SEMrush ou Ahrefs pour examiner les mots-clés pour lesquels ils se classent.
+- **Évaluation du contenu** : Analyser le type de contenu proposé (articles, vidéos, infographies).
+- **Backlinks** : Évaluer le profil de backlinks pour comprendre leur stratégie de création de liens.
+- **UX et design** : Observer la structure de leur site et l'expérience utilisateur.
 
-### 1.3. Opportunités SEO
-- **Mots-clés de niche** : Identification des mots-clés à faible concurrence mais à fort volume de recherche.
-- **Contenu à valeur ajoutée** : Thèmes de contenu qui répondent aux questions fréquentes des utilisateurs et qui sont sous-représentés.
+### Livrable
+Un rapport détaillé avec les forces et faiblesses des concurrents, ainsi que des recommandations stratégiques.
 
-## 2. Plan SEO détaillé
+---
 
-### 2.1. Stratégies de contenu
-- **Blogging** : Création d'articles de blog sur des sujets tendance, incluant des études de cas et des guides pratiques.
-- **Infographies et vidéos** : Contenus visuels pour améliorer l'engagement et le partage sur les réseaux sociaux.
+## 2. Recherche de mots-clés
 
-### 2.2. Mots-clés ciblés
-- **Liste de mots-clés** : 
-  - Mots-clés principaux : [exemples à définir selon la niche]
-  - Mots-clés secondaires : [exemples à définir selon la niche]
+### Objectif
+Identifier des mots-clés pertinents pour attirer un trafic qualifié.
 
-### 2.3. Recommandations techniques
-- **Optimisation mobile** : S'assurer que le site est responsive et rapide sur mobile.
-- **Amélioration de la vitesse de chargement** : Utilisation de techniques de compression d'images et de mise en cache.
-- **Balisage Schema.org** : Implémentation pour améliorer l'affichage dans les résultats de recherche.
+### Étapes
+- **Outils** : Utiliser Google Keyword Planner, Ubersuggest, et AnswerThePublic.
+- **Critères de sélection** :
+  - Volume de recherche : Minimum 500 recherches mensuelles.
+  - Difficulté : Prioriser les mots-clés avec une difficulté inférieure à 30.
+  - Intentions de recherche : Classer par intention (informationnelle, transactionnelle).
 
-## 3. Page 'offre'
+### Livrable
+Une liste de 20 à 30 mots-clés avec :
+- Volume de recherche
+- Difficulté
+- Intentions de recherche
 
-### 3.1. Contenu optimisé
-- **Titre accrocheur** : Inclure le mot-clé principal.
-- **Description claire** : Présentation des bénéfices du produit/service, avec un langage orienté utilisateur.
-- **Témoignages et études de cas** : Ajout de preuves sociales pour renforcer la crédibilité.
+---
 
-### 3.2. Design UX/UI
-- **Mise en page claire** : Sections bien définies avec des titres et sous-titres.
-- **Visuels attractifs** : Utilisation d'images de haute qualité et d'infographies.
+## 3. Plan de contenu
 
-### 3.3. Éléments de conversion
-- **Call-to-Action (CTA)** : Boutons visibles et incitatifs, tels que "Essayez maintenant" ou "Inscrivez-vous".
-- **Formulaires simplifiés** : Réduction du nombre de champs pour maximiser les conversions.
+### Objectif
+Élaborer un calendrier éditorial pour la création de contenu optimisé.
+
+### Étapes
+- **Sujets basés sur les mots-clés** : Créer des articles, guides, études de cas.
+- **Fréquence de publication** : Proposer un rythme de 1 à 2 articles par semaine.
+- **Formats diversifiés** : Inclure des articles de blog, vidéos, infographies.
+
+### Livrable
+Un calendrier éditorial sur 3 mois avec :
+- Titres des articles
+- Dates de publication
+- Mots-clés ciblés
+
+---
+
+## 4. Page 'offre'
+
+### Objectif
+Rédiger une page de vente optimisée pour le SEO.
+
+### Étapes
+- **Structure de la page** :
+  - Titre accrocheur avec le mot-clé principal.
+  - Introduction claire sur l'offre.
+  - Avantages et caractéristiques détaillés.
+  - Témoignages ou études de cas.
+  - Appels à l'action (CTA) stratégiques.
+  
+- **SEO On-page** :
+  - Utilisation des balises H1, H2, H3.
+  - Optimisation des images (balises alt).
+  - Liens internes et externes.
+
+### Livrable
+Une page de vente optimisée, prête à être publiée.
+
+---
+
+## 5. Audit SEO
+
+### Objectif
+Évaluer l'optimisation de la page 'offre' et fournir des recommandations.
+
+### Étapes
+- **Analyse technique** : Vérifier la vitesse de chargement, la compatibilité mobile, et les erreurs 404.
+- **Vérification des balises** : S'assurer que toutes les balises sont correctement configurées.
+- **Analyse des backlinks** : Évaluer le profil de liens entrants.
+
+### Livrable
+Un rapport final d'audit avec :
+- État actuel de la page
+- Recommandations d'optimisation
+- Stratégies de suivi
+
+---
 
 ## Checklist finale
-- [ ] Analyse de la niche complétée et validée.
-- [ ] Plan SEO rédigé et approuvé.
-- [ ] Page 'offre' créée et optimisée.
-- [ ] Vérification des éléments de conversion sur la page 'offre'.
-- [ ] Rapport final consolidé et prêt à être présenté.
+- [ ] Analyse de la concurrence complétée
+- [ ] Liste de mots-clés validée
+- [ ] Plan de contenu élaboré
+- [ ] Page 'offre' rédigée et optimisée
+- [ ] Audit SEO effectué et rapport finalisé
+- [ ] Révisions et ajustements effectués selon les retours
 <p><a class="btn" href="https://pancarte.gumroad.com/l/seo-qa?checkout=true" target="_blank" rel="noopener">Commander ce livrable</a></p>

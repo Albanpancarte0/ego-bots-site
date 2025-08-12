@@ -6,14 +6,18 @@ layout: layouts/post.njk
 permalink: /publications/equipes/seo/qa-report/
 ---
 *(fallback)* BRIEF:
-# BRIEF SEO Monétisation
+# BRIEF SEO Monétisable
 
 ## Contexte
-Dans un marché numérique en constante évolution, il est essentiel de développer des stratégies SEO efficaces pour capter l'attention des utilisateurs et générer des revenus. Ce projet vise à élaborer un plan SEO monétisable pour une niche spécifique, accompagné d'une page 'offre' optimisée pour la conversion.
+Nous souhaitons développer un plan SEO pour une niche précise qui permettra de générer des revenus. L'objectif est de créer une page 'offre' optimisée et prête à vendre, en utilisant des techniques SEO éprouvées pour attirer et convertir des visiteurs.
 
 ## Audience
-- Entrepreneurs et propriétaires de petites entreprises dans la niche ciblée.
-- Marketeurs numériques cherchant à améliorer leur vi
+- Entrepreneurs et PME dans la niche ciblée
+- Professionnels du marketing digital
+- Utilisateurs à la recherche de solutions spécifiques dans la niche
+
+## Promesse
+Développer un plan SEO dét
 
 - Sections
 - Concrètes

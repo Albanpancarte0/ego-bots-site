@@ -5,67 +5,109 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: "/publications/equipes/seo/onpage/"
 ---
-# Plan SEO Monétisation
+# Plan SEO Monétisable
 
-## 1. Analyse de la Niche
+## 1. Analyse de la concurrence
 
-### 1.1. Tendances du Marché
-- **Croissance du e-commerce** : Augmentation de 20% des ventes en ligne en 2023.
-- **Recherche vocale** : 30% des recherches sont effectuées via des assistants vocaux.
-- **Mobile-first** : 60% des utilisateurs naviguent sur mobile, soulignant l'importance d'un site responsive.
+### Objectif
+Évaluer les stratégies SEO des principaux concurrents dans la niche ciblée.
 
-### 1.2. Concurrence
-- **Analyse des concurrents** : Identifier 5 principaux concurrents dans la niche.
-  - **Concurrents A** : 50K visites/mois, mots-clés principaux : "produit A", "service A".
-  - **Concurrents B** : 30K visites/mois, mots-clés principaux : "produit B", "service B".
-- **Opportunités** : Identifier des mots-clés à faible concurrence et à fort volume de recherche.
+### Étapes
+- Identifier 5 à 10 concurrents clés.
+- Analyser leur positionnement sur les moteurs de recherche.
+- Évaluer leur utilisation des mots-clés, contenu, backlinks et structure de site.
 
-### 1.3. Opportunités SEO
-- **Mots-clés de niche** : Cibler des mots-clés spécifiques (longue traîne) pour attirer un public ciblé.
-- **Contenu de qualité** : Créer des articles de blog, études de cas et guides pratiques.
-- **Backlinks** : Stratégie de création de liens avec des sites pertinents pour renforcer l'autorité.
+### Outils recommandés
+- SEMrush
+- Ahrefs
+- Moz
 
-## 2. Plan SEO Détaillé
+### Rapport
+- Présenter les forces et faiblesses de chaque concurrent.
+- Identifier les opportunités à exploiter.
 
-### 2.1. Stratégies de Contenu
-- **Articles de blog** : Publier 2 articles par semaine sur des sujets tendances.
-- **Infographies** : Créer des visuels partageables pour attirer des backlinks.
-- **Webinaires** : Organiser des sessions en direct pour interagir avec l'audience.
+---
 
-### 2.2. Mots-clés Ciblés
-- **Mots-clés principaux** : 
-  - Produit A
-  - Service A
-- **Mots-clés secondaires** : 
-  - Comment utiliser produit A
-  - Avantages de service A
+## 2. Recherche de mots-clés
 
-### 2.3. Recommandations Techniques
-- **Optimisation des balises** : Utiliser des balises H1, H2, H3 avec des mots-clés ciblés.
-- **Vitesse de chargement** : Optimiser le temps de chargement à moins de 3 secondes.
-- **Mobile-friendly** : Assurer que le site est responsive et optimisé pour mobile.
+### Objectif
+Créer une liste de mots-clés pertinents pour le SEO.
 
-## 3. Page 'Offre'
+### Étapes
+- Utiliser des outils comme Google Keyword Planner, Ubersuggest ou AnswerThePublic.
+- Identifier des mots-clés avec un bon volume de recherche et une difficulté raisonnable.
 
-### 3.1. Contenu Optimisé
-- **Titre accrocheur** : "Boostez votre visibilité en ligne avec notre offre SEO exclusive !"
-- **Description** : Présentation des services SEO, avantages, et témoignages clients.
-- **Mots-clés intégrés** : Utiliser des mots-clés ciblés dans le contenu de la page.
+### Liste de mots-clés
+| Mot-clé                | Volume de recherche | Difficulté |
+|-----------------------|---------------------|------------|
+| Exemple de mot-clé 1  | 1,000               | 30         |
+| Exemple de mot-clé 2  | 500                 | 25         |
+| Exemple de mot-clé 3  | 2,000               | 40         |
 
-### 3.2. Design UX/UI
-- **Structure claire** : Sections bien définies (Introduction, Services, Témoignages, CTA).
-- **Appel à l'action (CTA)** : Boutons visibles et incitatifs (ex : "Demandez un devis gratuit").
-- **Visuels attractifs** : Utiliser des images et infographies pour renforcer le message.
+---
 
-### 3.3. Éléments de Conversion
-- **Formulaire de contact** : Simple et rapide à remplir.
-- **Offre limitée** : Créer un sentiment d'urgence (ex : "Offre valable jusqu'à la fin du mois").
-- **Témoignages** : Inclure des avis clients pour renforcer la crédibilité.
+## 3. Plan de contenu
 
-## Checklist Finale
-- [ ] Analyse de la niche complétée et validée.
-- [ ] Plan SEO rédigé et approuvé.
-- [ ] Page 'offre' créée et optimisée.
-- [ ] Vérification des éléments de conversion sur la page 'offre'.
-- [ ] Rapport final consolidé et prêt à être présenté.
+### Objectif
+Élaborer un calendrier éditorial avec des sujets optimisés pour le SEO.
+
+### Étapes
+- Déterminer la fréquence de publication (ex: hebdomadaire).
+- Sélectionner des sujets basés sur la recherche de mots-clés et les tendances.
+
+### Calendrier éditorial
+| Date        | Sujet de l'article               | Mots-clés associés          |
+|-------------|----------------------------------|-----------------------------|
+| Semaine 1   | Comment optimiser votre SEO      | SEO, optimisation, entreprise |
+| Semaine 2   | Les meilleures pratiques marketing| marketing, pratiques, PME    |
+| Semaine 3   | Étude de cas : succès d'une PME  | étude de cas, succès, PME    |
+
+---
+
+## 4. Page 'offre'
+
+### Objectif
+Rédiger une page de vente optimisée pour le SEO.
+
+### Structure de la page
+1. **Titre accrocheur** : Inclure le mot-clé principal.
+2. **Introduction** : Présenter la promesse de valeur.
+3. **Détails de l'offre** : Expliquer les bénéfices et caractéristiques.
+4. **Témoignages** : Ajouter des avis clients pour crédibilité.
+5. **Appels à l'action (CTA)** : Placer des boutons clairs (ex: "Achetez maintenant", "Demandez une démo").
+6. **FAQ** : Répondre aux questions fréquentes pour lever les objections.
+
+### Exemples de CTA
+- "Découvrez notre offre exclusive aujourd'hui !"
+- "Contactez-nous pour plus d'informations !"
+
+---
+
+## 5. Audit SEO
+
+### Objectif
+Évaluer l'optimisation de la page et fournir des recommandations.
+
+### Étapes
+- Analyser la structure de la page (balises, titres, méta-descriptions).
+- Vérifier la vitesse de chargement.
+- Évaluer la compatibilité mobile.
+
+### Rapport final
+- Présenter les points forts et les axes d'amélioration.
+- Fournir des recommandations concrètes pour optimiser la page.
+
+---
+
+## Checklist finale
+- [ ] Analyse de la concurrence complétée
+- [ ] Liste de mots-clés validée
+- [ ] Plan de contenu élaboré
+- [ ] Page 'offre' rédigée et optimisée
+- [ ] Audit SEO effectué et rapport finalisé
+- [ ] Révisions et ajustements effectués selon les retours
+
+--- 
+
+Ce plan SEO est conçu pour maximiser la visibilité et les conversions dans la niche ciblée, tout en respectant les contraintes budgétaires et temporelles.
 <p><a class="btn" href="https://pancarte.gumroad.com/l/seo-onpage?checkout=true" target="_blank" rel="noopener">Commander ce livrable</a></p>

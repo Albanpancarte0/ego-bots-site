@@ -7,42 +7,52 @@ permalink: "/publications/equipes/seo/"
 ---
 ## Brief du manager
 
-# BRIEF SEO Monétisation
+# BRIEF SEO Monétisable
 
 ## Contexte
-Dans un marché numérique en constante évolution, il est essentiel de développer des stratégies SEO efficaces pour capter l'attention des utilisateurs et générer des revenus. Ce projet vise à élaborer un plan SEO monétisable pour une niche spécifique, accompagné d'une page 'offre' optimisée pour la conversion.
+Nous souhaitons développer un plan SEO pour une niche précise qui permettra de générer des revenus. L'objectif est de créer une page 'offre' optimisée et prête à vendre, en utilisant des techniques SEO éprouvées pour attirer et convertir des visiteurs.
 
 ## Audience
-- Entrepreneurs et propriétaires de petites entreprises dans la niche ciblée.
-- Marketeurs numériques cherchant à améliorer leur visibilité en ligne.
-- Professionnels du SEO souhaitant diversifier leurs offres.
+- Entrepreneurs et PME dans la niche ciblée
+- Professionnels du marketing digital
+- Utilisateurs à la recherche de solutions spécifiques dans la niche
 
 ## Promesse
-Fournir un plan SEO détaillé et une page 'offre' prête à vendre, qui maximisera la visibilité et le potentiel de revenus dans la niche choisie.
+Développer un plan SEO détaillé et une page 'offre' qui :
+- Augmente la visibilité sur les moteurs de recherche
+- Attire un trafic qualifié
+- Convertit les visiteurs en clients
 
 ## Contraintes
-- Le plan doit être basé sur des données SEO récentes et des tendances de marché.
-- La page 'offre' doit être optimisée pour le SEO (mots-clés, balisage, etc.) et pour la conversion (CTA, design).
-- Le projet doit être achevé en 4 semaines.
+- Respecter les meilleures pratiques SEO actuelles
+- Ne pas dépasser un budget de 500€ pour les outils et ressources nécessaires
+- Livrer le projet en 4 semaines
 
 ## Livrables
-1. **Analyse de la niche** : Rapport sur les tendances, la concurrence et les opportunités SEO.
-2. **Plan SEO détaillé** : Stratégies de contenu, mots-clés ciblés, et recommandations techniques.
-3. **Page 'offre'** : Contenu optimisé, design UX/UI, et éléments de conversion.
+1. **Analyse de la concurrence** : Rapport sur les stratégies SEO des concurrents dans la niche.
+2. **Recherche de mots-clés** : Liste de mots-clés pertinents avec volume de recherche et difficulté.
+3. **Plan de contenu** : Calendrier éditorial avec des sujets optimisés pour le SEO.
+4. **Page 'offre'** : Rédaction d'une page de vente optimisée pour le SEO, incluant des appels à l'action clairs.
+5. **Audit SEO** : Rapport final sur l'optimisation de la page et recommandations.
 
 ## Critères qualité (0-5)
-- **Pertinence de l'analyse de la niche** : 0-5
-- **Efficacité du plan SEO** : 0-5
-- **Qualité de la page 'offre' (contenu et design)** : 0-5
-- **Optimisation SEO de la page 'offre'** : 0-5
-- **Clarté et structure des livrables** : 0-5
+- **Pertinence des mots-clés** : 0-5
+- **Clarté et attrait de la page 'offre'** : 0-5
+- **Conformité aux meilleures pratiques SEO** : 0-5
+- **Capacité à générer du trafic** : 0-5
+- **Potentiel de conversion** : 0-5
 
 ## Checklist finale
-- [ ] Analyse de la niche complétée et validée.
-- [ ] Plan SEO rédigé et approuvé.
-- [ ] Page 'offre' créée et optimisée.
-- [ ] Vérification des éléments de conversion sur la page 'offre'.
-- [ ] Rapport final consolidé et prêt à être présenté.
+- [ ] Analyse de la concurrence complétée
+- [ ] Liste de mots-clés validée
+- [ ] Plan de contenu élaboré
+- [ ] Page 'offre' rédigée et optimisée
+- [ ] Audit SEO effectué et rapport finalisé
+- [ ] Révisions et ajustements effectués selon les retours
+
+---
+
+Ce brief servira de guide pour les 3 bots spécialisés afin de garantir un travail cohérent et orienté vers les résultats.
 
 ## Livrables
 - [Keyword Researcher]({{ '/publications/equipes/seo/researcher/' | url }})

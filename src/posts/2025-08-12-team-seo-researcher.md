@@ -5,76 +5,39 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: "/publications/equipes/seo/researcher/"
 ---
-# Livrable SEO Monétisation
+# Livrable : Recherche de Mots-Clés
 
-## 1. Analyse de la Niche
+## 1. Objectif de la Recherche de Mots-Clés
+Identifier des mots-clés pertinents pour la niche ciblée, permettant d'augmenter la visibilité sur les moteurs de recherche et d'attirer un trafic qualifié.
 
-### 1.1. Tendances du Marché
-- **Croissance du e-commerce** : Augmentation des achats en ligne, surtout post-pandémie.
-- **Importance du SEO local** : Les recherches locales continuent de croître, surtout pour les petites entreprises.
-- **Montée des contenus vidéo** : Les vidéos sont de plus en plus utilisées pour le marketing, favorisant l'engagement.
+## 2. Méthodologie
+- **Outils utilisés** : Google Keyword Planner, SEMrush, Ubersuggest
+- **Critères de sélection** : Volume de recherche, difficulté, pertinence pour l'audience cible
 
-### 1.2. Concurrence
-- **Analyse des concurrents principaux** : Identifier les 5 principaux concurrents dans la niche.
-  - **Concurrents A** : Fort en contenu éducatif, bon référencement.
-  - **Concurrents B** : Spécialisation dans le SEO local, forte présence sur les réseaux sociaux.
-  - **Concurrents C** : Offres de services diversifiées, bon taux de conversion.
+## 3. Liste de Mots-Clés
 
-### 1.3. Opportunités SEO
-- **Mots-clés de longue traîne** : Identifier des mots-clés moins compétitifs mais avec un bon volume de recherche.
-- **Création de contenu éducatif** : Articles de blog, vidéos explicatives, et études de cas.
-- **Partenariats locaux** : Collaborations avec d'autres entreprises pour des backlinks.
+| Mot-Clé                      | Volume de Recherche | Difficulté (0-100) | Intentions de recherche |
+|------------------------------|---------------------|---------------------|-------------------------|
+| Solutions marketing PME      | 1,000               | 45                  | Informationnelle        |
+| Outils de marketing digital   | 2,400               | 50                  | Informationnelle        |
+| Stratégies SEO pour PME     | 500                 | 40                  | Informationnelle        |
+| Optimisation SEO site web    | 1,200               | 55                  | Transactionnelle        |
+| Marketing digital efficace    | 800                 | 48                  | Informationnelle        |
+| Agence SEO pour PME          | 600                 | 60                  | Transactionnelle        |
+| Formation marketing digital    | 1,500               | 35                  | Informationnelle        |
+| Outils d'analyse SEO         | 900                 | 52                  | Informationnelle        |
+| Conseils SEO pour entreprises | 700                 | 42                  | Informationnelle        |
+| Création de contenu optimisé  | 400                 | 38                  | Informationnelle        |
 
----
+## 4. Analyse des Intentions de Recherche
+- **Informationnelle** : Les utilisateurs recherchent des informations sur les solutions et stratégies.
+- **Transactionnelle** : Les utilisateurs cherchent des services ou des outils spécifiques à acheter.
 
-## 2. Plan SEO Détailé
+## 5. Recommandations
+- **Cibler les mots-clés à volume élevé et faible difficulté** pour maximiser les chances de classement.
+- **Utiliser les mots-clés dans le contenu de la page 'offre'** pour optimiser le référencement naturel.
+- **Créer des contenus autour des mots-clés informationnels** pour attirer un trafic qualifié avant de les convertir en clients.
 
-### 2.1. Stratégies de Contenu
-- **Blog** : Publier 2 articles par semaine sur des sujets liés à la niche.
-- **Webinaires** : Organiser des sessions mensuelles pour attirer des prospects.
-- **Infographies** : Créer des visuels partageables pour augmenter la visibilité.
-
-### 2.2. Mots-clés Ciblés
-- **Mots-clés principaux** :
-  - "SEO pour petites entreprises"
-  - "Comment améliorer la visibilité en ligne"
-- **Mots-clés de longue traîne** :
-  - "meilleures pratiques SEO pour entrepreneurs"
-  - "stratégies marketing digital pour PME"
-
-### 2.3. Recommandations Techniques
-- **Optimisation mobile** : S'assurer que le site est responsive.
-- **Vitesse de chargement** : Utiliser des outils comme Google PageSpeed Insights pour améliorer la vitesse.
-- **Balisage Schema** : Implémenter des données structurées pour améliorer l'affichage dans les résultats de recherche.
-
----
-
-## 3. Page 'Offre'
-
-### 3.1. Contenu Optimisé
-- **Titre** : "Boostez votre Visibilité en Ligne avec Notre Expertise SEO"
-- **Sous-titre** : "Des solutions personnalisées pour les petites entreprises"
-- **Corps du texte** :
-  - Présentation des services : Audit SEO, stratégie de contenu, optimisation technique.
-  - Témoignages clients : Inclure des avis positifs pour renforcer la crédibilité.
-  - Études de cas : Présenter des résultats concrets obtenus pour d'autres clients.
-
-### 3.2. Design UX/UI
-- **Structure claire** : Utiliser des sections distinctes pour chaque service.
-- **Appels à l'action (CTA)** : Boutons visibles "Demandez un audit gratuit" et "Contactez-nous".
-- **Visuels attrayants** : Images et graphiques pertinents pour maintenir l'engagement.
-
-### 3.3. Éléments de Conversion
-- **Formulaire de contact** : Simple et rapide à remplir.
-- **Offre limitée** : Proposer une réduction pour les nouveaux clients.
-- **Chat en direct** : Intégrer un service de chat pour répondre aux questions en temps réel.
-
----
-
-## Checklist Finale
-- [ ] Analyse de la niche complétée et validée.
-- [ ] Plan SEO rédigé et approuvé.
-- [ ] Page 'offre' créée et optimisée.
-- [ ] Vérification des éléments de conversion sur la page 'offre'.
-- [ ] Rapport final consolidé et prêt à être présenté.
+## 6. Conclusion
+Cette recherche de mots-clés fournira une base solide pour le développement de la page 'offre' et des contenus associés, en alignant les objectifs SEO avec les besoins de l'audience cible.
 <p><a class="btn" href="https://pancarte.gumroad.com/l/seo-keywords?checkout=true" target="_blank" rel="noopener">Commander ce livrable</a></p>

@@ -7,42 +7,39 @@ permalink: "/publications/equipes/ads/"
 ---
 ## Brief du manager
 
-# BRIEF DE PLANIFICATION DU TRAVAIL DES BOTS
+# BRIEF - Pack Publicitaire
 
 ## Contexte
-Nous avons besoin de créer un pack publicitaire complet pour promouvoir notre nouveau produit. Ce pack doit inclure 10 angles créatifs, des scripts pour des vidéos générées par les utilisateurs (UGC) et un copy efficace pour la landing page. L'objectif est d'attirer l'attention, d'engager les utilisateurs et de maximiser les conversions.
+Nous avons pour objectif de créer un pack publicitaire complet comprenant 10 angles créatifs, des scripts UGC (User Generated Content) et un copy pour une landing page. Ce pack sera utilisé pour promouvoir notre nouveau produit sur les réseaux sociaux et améliorer notre taux de conversion.
 
 ## Audience
-- **Cible principale** : Jeunes adultes (18-35 ans) intéressés par les nouvelles technologies et les produits innovants.
-- **Cible secondaire** : Professionnels à la recherche de solutions pratiques pour améliorer leur quotidien.
+Notre audience cible est composée de jeunes adultes âgés de 18 à 30 ans, intéressés par les nouvelles technologies et les tendances lifestyle. Ils sont actifs sur les réseaux sociaux et recherchent des produits innovants qui améliorent leur quotidien.
 
 ## Promesse
-Offrir un pack publicitaire qui capte l'attention de notre audience cible, en utilisant des messages authentiques et engageants qui reflètent les valeurs de notre marque.
+Créer un pack publicitaire engageant et convaincant qui capte l'attention de notre audience, génère de l'intérêt pour notre produit et incite à l'action.
 
 ## Contraintes
-- Les angles doivent être variés et ne pas se répéter.
-- Les scripts UGC doivent être courts (30-60 secondes) et faciles à comprendre.
+- Respecter un ton de communication décontracté et amical.
+- Les angles doivent être variés et aborder différents aspects du produit.
+- Les scripts UGC doivent être authentiques et refléter des expériences réelles.
 - Le copy de la landing page doit être optimisé pour le SEO et contenir des appels à l'action clairs.
-- Respecter le ton de voix de la marque : amical, dynamique et inspirant.
 
 ## Livrables
-1. **10 angles publicitaires** : Des idées créatives pour les campagnes.
-2. **10 scripts UGC** : Scripts pour des vidéos de 30 à 60 secondes.
-3. **Copy de landing page** : Texte optimisé pour le SEO d'environ 300 mots.
+1. **10 Angles Publicitaires** - Chaque angle doit être succinct et percutant.
+2. **Scripts UGC** - 5 scripts d'une durée de 30 secondes, adaptés à des vidéos courtes.
+3. **Copy de Landing Page** - Un texte de 300 mots, incluant un titre accrocheur, une description du produit, des témoignages et des appels à l'action.
 
 ## Critères qualité (0-5)
-- **Originalité des angles** : 0-5
-- **Clarté et engagement des scripts UGC** : 0-5
-- **Efficacité et optimisation du copy de landing page** : 0-5
-- **Cohérence avec le ton de la marque** : 0-5
-- **Respect des contraintes** : 0-5
+- **Créativité des Angles**: 0 (non créatif) à 5 (très créatif)
+- **Authenticité des Scripts UGC**: 0 (non authentique) à 5 (très authentique)
+- **Efficacité du Copy de Landing Page**: 0 (non convaincant) à 5 (très convaincant)
 
 ## Checklist finale
-- [ ] 10 angles publicitaires validés.
-- [ ] 10 scripts UGC rédigés et relus.
-- [ ] Copy de landing page finalisé et optimisé.
-- [ ] Vérification de la cohérence avec le ton de la marque.
-- [ ] Validation de la conformité avec les contraintes.
+- [ ] 10 angles publicitaires rédigés et validés
+- [ ] 5 scripts UGC rédigés et validés
+- [ ] Copy de landing page rédigé et optimisé
+- [ ] Vérification de la cohérence du ton et du style
+- [ ] Validation finale par l’équipe marketing avant publication
 
 ## Livrables
 - [Creative Angle Maker]({{ '/publications/equipes/ads/angles/' | url }})
