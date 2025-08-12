@@ -1,17 +1,15 @@
 name: Ping search engines
-
 on:
   workflow_run:
     workflows: ["Build & Deploy Eleventy to Pages"]
     types: [completed]
-
+permissions: {}
 jobs:
   ping:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Google & Bing
-        run: |
-          SITE="https://albanpancarte0.github.io/ego-bots-site"
-          curl -s "https://www.google.com/ping?sitemap=${SITE}/sitemap.xml" || true
-          curl -s "https://www.bing.com/ping?sitemap=${SITE}/sitemap.xml" || true
+      - name: Ping Google
+        run: curl -s "https://www.google.com/ping?sitemap=https://albanpancarte0.github.io/ego-bots-site/sitemap.xml" || true
+      - name: Ping Bing
+        run: curl -s "https://www.bing.com/ping?sitemap=https://albanpancarte0.github.io/ego-bots-site/sitemap.xml" || true
