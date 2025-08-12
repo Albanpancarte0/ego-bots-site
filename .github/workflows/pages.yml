@@ -1,8 +1,9 @@
 name: Build & Deploy Eleventy to Pages
+
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 permissions:
   contents: read
@@ -23,6 +24,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci || npm i --no-audit --no-fund
+      - run: npm run self:heal || true
       - run: rm -rf docs
       - run: npm run build
       - uses: actions/configure-pages@v5
