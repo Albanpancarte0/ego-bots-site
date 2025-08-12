@@ -2,7 +2,7 @@ name: Auto-génération équipes de bots
 
 on:
   schedule:
-    - cron: "5 5 * * *"   # tous les jours à 05:05 UTC
+    - cron: "5 5 * * *"   # tous les jours 05:05 UTC
   workflow_dispatch: {}
 
 permissions:
@@ -23,11 +23,9 @@ jobs:
           cache: npm
       - run: npm ci || npm i --no-audit --no-fund
 
-      # ⬇️ Utilise le nouveau script avec liens corrects (| url) et tag team-manager
       - name: Génère l'armée via LLM
         run: npm run bots:llm
         env:
-          # Laisse ce que ton llm.mjs attend ; je passe les deux formats au cas où
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
