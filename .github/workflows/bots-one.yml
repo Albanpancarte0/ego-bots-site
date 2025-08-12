@@ -1,0 +1,36 @@
+name: Auto-bots (one team)
+
+on:
+  workflow_dispatch:
+    inputs:
+      team:
+        description: "Slug d'équipe (ex: seo, ads, content)"
+        required: true
+permissions:
+  contents: write
+
+jobs:
+  auto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci || npm i --no-audit --no-fund
+      - name: Génère 1 équipe
+        run: npm run bots:llm
+        env:
+          TEAMS: ${{ inputs.team }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: auto-bots one team (${{ inputs.team }})" || echo "rien à committer"
+          git push
