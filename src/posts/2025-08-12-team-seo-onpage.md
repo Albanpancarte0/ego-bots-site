@@ -1,10 +1,12 @@
 ---
 title: "On-Page Optimizer — Manager SEO"
-date: "2025-08-12"
+date: 2025-08-12
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/seo/onpage/"
+permalink: /publications/equipes/seo/onpage/
 ---
+(Contenu du livrable “onpage” ici.)
+
 # Plan SEO Monétisable
 
 ## 1. Analyse de la concurrence
