@@ -1,48 +1,50 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const POSTS = path.join("src", "posts");
+const OUT_DIR = path.join("src", "posts");
 
-function readFM(txt){ const m=/^---\n([\s\S]*?)\n---/m.exec(txt); return m?{fm:m[1], body:txt.slice(m[0].length)}:null; }
-
-const byPerm = new Map();
-for (const f of fs.readdirSync(POSTS)) {
-  if (!f.endsWith(".md")) continue;
-  const p = path.join(POSTS, f);
-  const txt = fs.readFileSync(p, "utf8");
-  const m = readFM(txt);
-  if (!m) continue;
-  const pm = /(^|\n)permalink:\s*['"]?(\S+?)['"]?(\s|$)/.exec(m.fm);
-  if (!pm) continue;
-  const perm = pm[2];
-  if (!byPerm.has(perm)) byPerm.set(perm, []);
-  byPerm.get(perm).push(p);
+function fixPermalinkLine(s) {
+  // enlève quotes foireuses et double-slashes, force trailing slash
+  const cleaned = String(s).replace(/["']/g, "").replace(/\/+$/,"/").replace(/\/{2,}/g,"/");
+  return cleaned.endsWith("/") ? cleaned : (cleaned + "/");
 }
 
-// Règle: si 2 fichiers écrivent le même permalink:
-// - si l'un finit par -qa-report.md → l'autre qui est un -qa.md doit passer sur /.../qa/
-// - sinon, on garde le plus récent et on supprime les autres.
-for (const [perm, files] of byPerm.entries()) {
-  if (files.length <= 1) continue;
+function fixFile(file) {
+  const raw = fs.readFileSync(file, "utf8");
+  const m = /^---\n([\s\S]*?)\n---([\s\S]*)$/m.exec(raw);
+  if (!m) return;
+  let fm = m[1], body = m[2];
 
-  const hasReport = files.some(f => /-qa-report\.md$/.test(f));
-  const hasQa = files.some(f => /-qa\.md$/.test(f));
-
-  if (perm.endsWith("/qa-report/") && hasQa) {
-    // retrouve le -qa.md et le bascule en /qa/
-    const qaFile = files.find(f => /-qa\.md$/.test(f));
-    const txt = fs.readFileSync(qaFile, "utf8");
-    const fixed = txt.replace(/permalink:\s*['"]?\/publications\/equipes\/([^/]+)\/qa-report\/?['"]?/i,
-                              'permalink: /publications/equipes/$1/qa/');
-    fs.writeFileSync(qaFile, fixed);
-    console.log("Heal: fixed QA permalink → /qa/ for", path.basename(qaFile));
-    continue;
+  // normalise permalink
+  const pm = /^\s*permalink:\s*(.*)$/m.exec(fm);
+  if (pm) {
+    const fixed = fixPermalinkLine(pm[1]);
+    fm = fm.replace(/^\s*permalink:.*$/m, `permalink: ${fixed}`);
   }
 
-  // Sinon: supprimer les plus anciens
-  const sorted = files.sort((a,b)=>fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs);
-  for (let i=1;i<sorted.length;i++){
-    fs.unlinkSync(sorted[i]);
-    console.log("Heal: removed duplicate permalink file", path.basename(sorted[i]));
+  // corrige cas connus "-report/\"" etc.
+  fm = fm.replace(/qa-report\/-report\/"?/g, "qa-report/");
+
+  // assure le tag team-manager si -manager.md
+  if (/team-([a-z0-9-]+)-manager\.md$/i.test(file) && !/team-manager/.test(fm)) {
+    const tagsLine = /^\s*tags:\s*\[(.*?)\]\s*$/m;
+    if (tagsLine.test(fm)) {
+      fm = fm.replace(tagsLine, (all, inside) => `tags: [${inside ? inside + "," : ""}"team-manager"]`);
+    } else {
+      fm = `tags: ["post","team-manager"]\n` + fm;
+    }
   }
+
+  fs.writeFileSync(file, `---\n${fm}\n---${body}`);
+}
+
+if (fs.existsSync(OUT_DIR)) {
+  for (const f of fs.readdirSync(OUT_DIR)) {
+    if (f.endsWith(".md")) {
+      try { fixFile(path.join(OUT_DIR, f)); } catch {}
+    }
+  }
+  console.log("Self-heal OK");
+} else {
+  console.log("No src/posts dir yet");
 }
