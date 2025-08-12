@@ -5,27 +5,19 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/events/qa-report/
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# BRIEF
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Nous organisons un événement majeur dans le domaine [spécifier le domaine, par exemple, technologique, culturel, etc.]. L'objectif est de maximiser l'engagement des participants et d'attirer des sponsors de qualité. Pour cela, nous devons créer une landing page efficace, des emails d'invitation percutants et un kit sponsor attrayant.
 
-### Brief reçu
-Domaine: events
-Objectif: Landing d’événement, emails d’invitation, kit sponsor.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+- **Participants** : Professionnels et passionnés du domaine ciblé, âgés de 25 à 45 ans.
+- **Sponsors** : Entreprises et marques intéressées par une visibilité accrue et des opportunités de networking.
 
-Livrable à évaluer:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Promesse
+Offrir u
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: events
-Objectif: Landing d’événement, emails d’invitation, kit sponsor.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
-
-Réalise ta partie uniquement.
+- Sections
+- Concrètes
+- Livrable prêt

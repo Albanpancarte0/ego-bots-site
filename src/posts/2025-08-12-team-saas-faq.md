@@ -3,19 +3,22 @@ title: "FAQ Writer — Manager SaaS"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: /publications/equipes/saas/faq/
+permalink: "/publications/equipes/saas/faq/"
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# BRIEF DE PROJET
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Dans le cadre de notre stratégie SaaS, nous souhaitons améliorer l'expérience utilisateur dès l'onboarding. Cela inclut la création de documents d'onboarding, des notes de version claires et une FAQ exhaustive pour accompagner nos utilisateurs dans leur utilisation de la plateforme.
 
-### Brief reçu
-Domaine: saas
-Objectif: Pack SaaS: docs d’onboarding, notes de version, FAQ.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+- Nouveaux utilisateurs de notre solution SaaS
+- Utilisateurs existants souhaitant se familiariser avec les nouvelles fonctionnalités
+- Équipe de support client
 
-Réalise ta partie uniquement.
+## Promesse
+Fournir des documents clairs, concis et facilement accessibles qui permettront aux utilisat
 
-> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.
+- Sections
+- Concrètes
+- Livrable prêt

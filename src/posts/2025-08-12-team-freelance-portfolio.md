@@ -3,19 +3,22 @@ title: "Portfolio Polisher — Manager Freelance"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: /publications/equipes/freelance/portfolio/
+permalink: "/publications/equipes/freelance/portfolio/"
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# BRIEF : Proposition de Services Freelance
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Dans un marché freelance en pleine expansion, il est essentiel de se démarquer par une proposition de services claire et attractive. Ce projet vise à créer une proposition de services, un portfolio et des packs tarifaires pour attirer de nouveaux clients.
 
-### Brief reçu
-Domaine: freelance
-Objectif: Proposition, portfolio et packs tarifaires pour signer plus.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+- Freelancers débutants et expérimentés
+- Clients potentiels à la recherche de services de freelance
+- Plateformes de mise en relation entre freelances et clients
 
-Réalise ta partie uniquement.
+## Promesse
+Offrir une proposition de services professionnelle et séduisante qui met en avant les compé
 
-> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.
+- Sections
+- Concrètes
+- Livrable prêt

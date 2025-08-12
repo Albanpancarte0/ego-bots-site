@@ -5,27 +5,19 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/tiktokshop/qa-report/
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# BRIEF - Projet TikTok Shop
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Le marché de TikTok Shop connaît une croissance rapide, et il est essentiel de se démarquer par des produits attractifs et des contenus engageants. Nous avons besoin de trois bots spécialisés pour effectuer des recherches de produits tendance, rédiger des scripts vidéo captivants, et concevoir des offres bundle attractives.
 
-### Brief reçu
-Domaine: tiktokshop
-Objectif: Recherche produit + scripts vidéo + offre bundle.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+- **Vendeurs TikTok** : Cherchent à optimiser leurs offres et à créer du contenu engageant.
+- **Acheteurs potentiels** : À la recherche de produits tendance et d'offres intéressantes sur TikTok.
 
-Livrable à évaluer:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Promesse
+Four
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: tiktokshop
-Objectif: Recherche produit + scripts vidéo + offre bundle.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
-
-Réalise ta partie uniquement.
+- Sections
+- Concrètes
+- Livrable prêt

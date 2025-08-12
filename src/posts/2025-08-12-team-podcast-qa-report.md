@@ -5,27 +5,21 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/podcast/qa-report/
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# Brief pour la Planification d'Épisode de Podcast
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Nous lançons un nouvel épisode de podcast qui se concentre sur l'innovation technologique dans le secteur de la santé. Cet épisode vise à informer et engager notre audience sur les dernières tendances et les impacts de la technologie sur les soins de santé.
 
-### Brief reçu
-Domaine: podcast
-Objectif: Plan d’épisode, show notes, titres pour clips.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+- Professionnels de la santé
+- Passionnés de technologie
+- Étudiants en médecine et en sciences de la santé
+- Grand public intéressé par l'innovation
 
-Livrable à évaluer:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Promesse
+Offrir un contenu informatif et engageant qui explore comment la technologie transforme le sect
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: podcast
-Objectif: Plan d’épisode, show notes, titres pour clips.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
-
-Réalise ta partie uniquement.
+- Sections
+- Concrètes
+- Livrable prêt

@@ -3,19 +3,19 @@ title: "Onboarding Sequence — Manager Email & CRM"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: /publications/equipes/emailcrm/onboarding/
+permalink: "/publications/equipes/emailcrm/onboarding/"
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: emailcrm
-Objectif: Séquences d’emails (onboarding, newsletter, réactivation) prêtes à envoyer.
+*(fallback)* BRIEF:
+*(fallback)* Domaine: emailcrm
+Objectif: Séquences onboarding, newsletter, réactivation.
 Rends un BRIEF utile et mesurable pour guider 3 bots.
+
+- Sections
+- Concrètes
+- Livrable prêt
 
 Réalise ta partie uniquement.
 
-> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.
+- Sections
+- Concrètes
+- Livrable prêt

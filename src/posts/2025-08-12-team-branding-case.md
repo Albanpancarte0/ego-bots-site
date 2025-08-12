@@ -3,19 +3,19 @@ title: "Case Study Writer — Manager Personal Branding"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: /publications/equipes/branding/case/
+permalink: "/publications/equipes/branding/case/"
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: branding
-Objectif: Pack personal branding: bio, à-propos, étude de cas.
+*(fallback)* BRIEF:
+*(fallback)* Domaine: branding
+Objectif: Bio, à-propos, étude de cas.
 Rends un BRIEF utile et mesurable pour guider 3 bots.
+
+- Sections
+- Concrètes
+- Livrable prêt
 
 Réalise ta partie uniquement.
 
-> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.
+- Sections
+- Concrètes
+- Livrable prêt

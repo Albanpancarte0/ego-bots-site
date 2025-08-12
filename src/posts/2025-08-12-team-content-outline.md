@@ -3,19 +3,17 @@ title: "Blog Outliner — Manager Contenu"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: /publications/equipes/content/outline/
+permalink: "/publications/equipes/content/outline/"
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# Brief de Projet
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Dans le cadre de notre stratégie de contenu, nous souhaitons produire un article de 1000 mots qui aborde un sujet pertinent pour notre audience cible. Cet article doit non seulement informer, mais aussi engager et inciter à l'action. Trois bots spécialisés seront mobilisés pour planifier, rédiger et assurer la qualité de cet article.
 
-### Brief reçu
-Domaine: content
-Objectif: Plan + article 1000 mots + QA, vendable comme livrable clé-en-main.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+L'audience cible est composée de professionnels du secteur [à préciser] âgés de 25 à 45 ans, intéressés par [thème spécifique]. Ils recherchent des informations pratiques et des conseils applicables à leur quotidi
 
-Réalise ta partie uniquement.
-
-> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.
+- Sections
+- Concrètes
+- Livrable prêt

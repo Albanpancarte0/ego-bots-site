@@ -5,27 +5,27 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/restaurant/qa-report/
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: restaurant
-Objectif: Menu optimisé + post Google Business + réponses aux avis.
+*(fallback)* BRIEF:
+*(fallback)* Domaine: restaurant
+Objectif: Menu optimisé, post GBP, réponses aux avis.
 Rends un BRIEF utile et mesurable pour guider 3 bots.
+
+- Sections
+- Concrètes
+- Livrable prêt
 
 Livrable à évaluer:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+# Menu Optimizer Brief
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## 1. Analyse du Menu Actuel
+- **Objectif**: Identifier les plats les plus populaires et ceux qui se vendent moins bien.
+- **Actions**:
+  - Collecter les données de vente des 3 derniers mois.
+  - Évaluer les avis clients sur chaque plat via Google Business Profile (GBP).
+  - Identifier les tendances saisonnières ou les retours récurrents.
 
-### Brief reçu
-Domaine: restaurant
-Objectif: Menu optimisé + post Google Business + réponses aux avis.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## 2. Optimisation des Pl
 
-Réalise ta partie uniquement.
+- Sections
+- Concrètes
+- Livrable prêt

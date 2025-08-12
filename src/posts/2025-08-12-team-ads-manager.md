@@ -3,54 +3,48 @@ title: "Manager Ads & Créa"
 date: "2025-08-12"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: /publications/equipes/ads/
+permalink: "/publications/equipes/ads/"
 ---
 ## Brief du manager
 
-# BRIEF : Pack Publicitaire
+# Brief de Projet : Création d'Angles Publicitaires et Contenu UGC
 
 ## Contexte
-Dans le cadre de notre campagne publicitaire, nous avons besoin de créer un pack publicitaire comprenant 10 angles créatifs, des scripts UGC (User Generated Content) et un copy optimisé pour la landing page. L'objectif est d'attirer et de convertir notre audience cible en clients.
+Dans le cadre de notre campagne publicitaire, nous souhaitons développer 10 angles créatifs accompagnés de scripts UGC (User Generated Content) et d'un copy efficace pour notre landing page. L'objectif est d'augmenter l'engagement et les conversions sur notre site.
 
 ## Audience
-- **Cible principale** : Jeunes adultes de 18 à 30 ans, utilisateurs fréquents des réseaux sociaux, intéressés par les tendances et les produits innovants.
-- **Comportement** : Consommateurs engagés, influencés par les avis et recommandations d'autres utilisateurs.
+- **Cible Principale** : Jeunes adultes (18-30 ans) intéressés par les nouvelles technologies et les tendances.
+- **Cible Secondaire** : Professionnels du marketing à la recherche de nouveaux outils pour améliorer leur stratégie digitale.
 
 ## Promesse
-Créer un pack publicitaire qui capte l'attention de notre audience, suscite l'engagement et encourage les conversions grâce à des angles créatifs, des scripts authentiques et un copy percutant.
+Fournir des angles publicitaires innovants et des contenus engageants qui résonnent avec notre audience, tout en optimisant le taux de conversion de notre landing page.
 
 ## Contraintes
-- **Délai** : 2 semaines pour la livraison complète du pack.
-- **Ton** : Amical, accessible et dynamique.
-- **Formats** : Les scripts UGC doivent être courts (30-60 secondes), et le copy de la landing page doit être concis (max 300 mots).
-- **Compliance** : Respecter les lignes directrices de la marque et les réglementations publicitaires.
+- Les angles doivent être originaux et ne pas dépasser 100 mots chacun.
+- Les scripts UGC doivent être réalistes et refléter une expérience authentique.
+- Le copy de la landing page doit être optimisé pour le SEO et ne pas dépasser 300 mots.
+- Respect des délais : tous les livrables doivent être fournis dans un délai de 2 semaines.
 
 ## Livrables
-1. **10 Angles Publicitaires** : Concepts créatifs et accrocheurs.
-2. **10 Scripts UGC** : Scénarios pour des vidéos authentiques.
-3. **Copy de Landing Page** : Texte optimisé pour la conversion.
+1. **10 Angles Publicitaires** : 10 propositions d'angles créatifs.
+2. **10 Scripts UGC** : 10 scripts de contenu généré par les utilisateurs.
+3. **Copy de Landing Page** : Un texte optimisé pour la landing page.
 
 ## Critères qualité (0-5)
-- **Créativité des angles** : 0 (non créatif) - 5 (très créatif)
-- **Pertinence des scripts UGC** : 0 (non pertinent) - 5 (très pertinent)
-- **Efficacité du copy de landing** : 0 (non convaincant) - 5 (très convaincant)
-- **Respect des contraintes** : 0 (non respecté) - 5 (parfaitement respecté)
+- **Originalité des Angles** : 0 (plagiat) - 5 (très créatif)
+- **Pertinence des Scripts UGC** : 0 (non pertinent) - 5 (très engageant)
+- **Efficacité du Copy de Landing** : 0 (non optimisé) - 5 (très convaincant)
 
-## Checklist finale
-- [ ] 10 angles publicitaires livrés
-- [ ] 10 scripts UGC livrés
-- [ ] Copy de landing page livré
-- [ ] Respect des délais
-- [ ] Vérification de la conformité avec les lignes directrices de la marque
-- [ ] Validation des critères de qualité par le manager
-
----
-
-Ce brief doit guider les 3 bots dans la création d'un pack publicitaire efficace et mesurable.
+## Checklist Finale
+- [ ] 10 Angles Publicitaires rédigés et validés.
+- [ ] 10 Scripts UGC écrits et conformes aux attentes.
+- [ ] Copy de la landing page rédigé et optimisé pour le SEO.
+- [ ] Vérification de l'originalité des contenus.
+- [ ] Validation des délais de livraison respectés.
 
 ## Livrables
 - [Creative Angle Maker]({{ '/publications/equipes/ads/angles/' | url }})
 - [UGC Script Lab]({{ '/publications/equipes/ads/ugc/' | url }})
 - [Landing Copy Refiner]({{ '/publications/equipes/ads/landingcopy/' | url }})
 
-> ⚙️ Ajoute/édite les liens dans src/_data/payments.json
+> ⚙️ Édite les liens dans src/_data/payments.json

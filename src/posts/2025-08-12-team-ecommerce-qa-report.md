@@ -5,27 +5,19 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/ecommerce/qa-report/
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# BRIEF E-commerce
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Nous souhaitons améliorer notre taux de conversion sur notre site e-commerce en optimisant nos fiches produits et en relançant les clients ayant abandonné leur panier. Cela inclut la création de fiches produits attractives, des angles publicitaires engageants, et des emails de relance efficaces.
 
-### Brief reçu
-Domaine: ecommerce
-Objectif: Créer une fiche produit + angles pubs + 3 emails panier abandonné pour une boutique vendable comme pack.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+- Clients potentiels : utilisateurs intéressés par nos produits mais qui n'ont pas finalisé leur achat.
+- Clients existants : utilisateurs ayant déjà acheté et susceptibles de revenir.
 
-Livrable à évaluer:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Promesse
+Fournir des fiches produits convaincantes, des angles
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: ecommerce
-Objectif: Créer une fiche produit + angles pubs + 3 emails panier abandonné pour une boutique vendable comme pack.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
-
-Réalise ta partie uniquement.
+- Sections
+- Concrètes
+- Livrable prêt

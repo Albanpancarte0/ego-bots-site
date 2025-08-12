@@ -5,27 +5,15 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/content/qa-report/
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# Brief de Projet
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Dans le cadre de notre stratégie de contenu, nous souhaitons produire un article de 1000 mots qui aborde un sujet pertinent pour notre audience cible. Cet article doit non seulement informer, mais aussi engager et inciter à l'action. Trois bots spécialisés seront mobilisés pour planifier, rédiger et assurer la qualité de cet article.
 
-### Brief reçu
-Domaine: content
-Objectif: Plan + article 1000 mots + QA, vendable comme livrable clé-en-main.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+L'audience cible est composée de professionnels du secteur [à préciser] âgés de 25 à 45 ans, intéressés par [thème spécifique]. Ils recherchent des informations pratiques et des conseils applicables à leur quotidi
 
-Livrable à évaluer:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: content
-Objectif: Plan + article 1000 mots + QA, vendable comme livrable clé-en-main.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
-
-Réalise ta partie uniquement.
+- Sections
+- Concrètes
+- Livrable prêt

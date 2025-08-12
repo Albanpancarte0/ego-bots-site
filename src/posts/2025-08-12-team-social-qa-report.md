@@ -5,27 +5,18 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/social/qa-report/
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# BRIEF PACK SOCIAL
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Dans le cadre de notre stratégie de communication sur les réseaux sociaux, nous souhaitons créer un Pack Social comprenant 20 hooks engageants et un carrousel de 10 slides. L'objectif est d'augmenter l'interaction avec notre audience et de promouvoir nos services de manière créative et dynamique.
 
-### Brief reçu
-Domaine: social
-Objectif: Produire un pack Social (20 hooks, un carrousel 10 slides) prêt à vendre.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+Notre cible principale est constituée de jeunes adultes (18-35 ans) intéressés par les tendances sociales, la culture numérique et les innovations. Ils sont actifs sur des plateformes comme Instagram, TikTok et Twitter.
 
-Livrable à évaluer:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Promesse
+Ce Pack Social d
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: social
-Objectif: Produire un pack Social (20 hooks, un carrousel 10 slides) prêt à vendre.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
-
-Réalise ta partie uniquement.
+- Sections
+- Concrètes
+- Livrable prêt

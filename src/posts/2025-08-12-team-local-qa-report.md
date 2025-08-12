@@ -5,27 +5,30 @@ tags: ["post","team-bot"]
 layout: layouts/post.njk
 permalink: /publications/equipes/local/qa-report/
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
-
-### Brief reçu
-Domaine: local
-Objectif: Pack local business: 1 post Google Business, 10 réponses aux avis et checklist d’optimisations.
+*(fallback)* BRIEF:
+*(fallback)* Domaine: local
+Objectif: 1 post GBP, 10 réponses aux avis, checklist d’optimisations.
 Rends un BRIEF utile et mesurable pour guider 3 bots.
+
+- Sections
+- Concrètes
+- Livrable prêt
 
 Livrable à évaluer:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+# Brief pour GMB Poster
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## 1. Post GBP
 
-### Brief reçu
-Domaine: local
-Objectif: Pack local business: 1 post Google Business, 10 réponses aux avis et checklist d’optimisations.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+**Objectif :** Créer un post attractif pour Google Business Profile (GBP).
 
-Réalise ta partie uniquement.
+### Contenu du Post
+- **Titre :** [Titre accrocheur lié à votre activité]
+- **Description :** 
+  - Présentez un nouveau produit/service ou une promotion.
+  - Incluez un appel à l'action (ex : "Réservez maintenant", "Découvrez notre offre").
+- **Image :** 
+  - Ch
+
+- Sections
+- Concrètes
+- Livrable prêt

@@ -3,19 +3,21 @@ title: "Video Script UGC — Manager TikTok Shop"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: /publications/equipes/tiktokshop/videoscript/
+permalink: "/publications/equipes/tiktokshop/videoscript/"
 ---
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+*(fallback)* BRIEF:
+# BRIEF - Projet TikTok Shop
 
-### Brief reçu
-BRIEF:
-> ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
+## Contexte
+Le marché de TikTok Shop connaît une croissance rapide, et il est essentiel de se démarquer par des produits attractifs et des contenus engageants. Nous avons besoin de trois bots spécialisés pour effectuer des recherches de produits tendance, rédiger des scripts vidéo captivants, et concevoir des offres bundle attractives.
 
-### Brief reçu
-Domaine: tiktokshop
-Objectif: Recherche produit + scripts vidéo + offre bundle.
-Rends un BRIEF utile et mesurable pour guider 3 bots.
+## Audience
+- **Vendeurs TikTok** : Cherchent à optimiser leurs offres et à créer du contenu engageant.
+- **Acheteurs potentiels** : À la recherche de produits tendance et d'offres intéressantes sur TikTok.
 
-Réalise ta partie uniquement.
+## Promesse
+Four
 
-> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.
+- Sections
+- Concrètes
+- Livrable prêt

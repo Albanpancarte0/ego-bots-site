@@ -3,17 +3,17 @@ title: "Creative Angle Maker — Manager Ads & Créa"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: /publications/equipes/ads/angles/
+permalink: "/publications/equipes/ads/angles/"
 ---
 *(fallback)* BRIEF:
-# BRIEF : Pack Publicitaire
+# Brief de Projet : Création d'Angles Publicitaires et Contenu UGC
 
 ## Contexte
-Dans le cadre de notre campagne publicitaire, nous avons besoin de créer un pack publicitaire comprenant 10 angles créatifs, des scripts UGC (User Generated Content) et un copy optimisé pour la landing page. L'objectif est d'attirer et de convertir notre audience cible en clients.
+Dans le cadre de notre campagne publicitaire, nous souhaitons développer 10 angles créatifs accompagnés de scripts UGC (User Generated Content) et d'un copy efficace pour notre landing page. L'objectif est d'augmenter l'engagement et les conversions sur notre site.
 
 ## Audience
-- **Cible principale** : Jeunes adultes de 18 à 30 ans, utilisateurs fréquents des réseaux sociaux, intéressés par les tendances et les produits innovants.
--
+- **Cible Principale** : Jeunes adultes (18-30 ans) intéressés par les nouvelles technologies et les tendances.
+- **Cible Secondaire** : Professionnels du marketing à la recherche de nouveaux outils pour améliorer leur stratégie digit
 
 - Sections
 - Concrètes
