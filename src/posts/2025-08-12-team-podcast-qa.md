@@ -3,7 +3,7 @@ title: "QA — Manager Podcast/Video"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/podcast/qa-report/"
+permalink: /publications/equipes/podcast/qa/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 
