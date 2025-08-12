@@ -44,37 +44,27 @@ const fmTeam = ({title, slug}) =>
 const fmChild = ({title, teamSlug, childSlug}) =>
   `---\ntitle: "${title}"\ndate: "${DATE}"\ntags: ["post","team-bot"]\nlayout: layouts/post.njk\npermalink: "/publications/equipes/${teamSlug}/${childSlug}/"\n---\n`;
 
-function cleanupOldTeamFiles(teamSlug) {
-  if (!fs.existsSync(OUT_DIR)) return;
-  for (const f of fs.readdirSync(OUT_DIR)) {
-    if (f.endsWith(".md") && f.includes(`-team-${teamSlug}-`) && !f.startsWith(`${DATE}-`)) {
-      fs.unlinkSync(path.join(OUT_DIR, f));
-      console.log("Removed old", f);
-    }
-  }
+function setPermalink(file, newPermalink) {
+  if (!fs.existsSync(file)) return;
+  const raw = fs.readFileSync(file, "utf8");
+  const m = /^---\n([\s\S]*?)\n---/m.exec(raw);
+  if (!m) return;
+  const fm = m[1];
+  const body = raw.slice(m[0].length);
+  const cleaned = newPermalink.replace(/["']/g, "").replace(/\/+$/,"/"); // enlève quotes, normalise /
+  const fm2 = fm.match(/^\s*permalink:/m)
+    ? fm.replace(/^\s*permalink:.*$/m, `permalink: ${cleaned}`)
+    : `permalink: ${cleaned}\n` + fm;
+  fs.writeFileSync(file, `---\n${fm2}\n---${body}`);
 }
 
 function fixQaFiles(team) {
-  const files = fs.readdirSync(OUT_DIR).filter(f => f.endsWith(".md") && f.includes(`-team-${team.slug}-`));
-  for (const f of files) {
-    const fp = path.join(OUT_DIR, f);
-    let txt = readFileSafe(fp);
-    if (!txt) continue;
-
-    if (/-qa\.md$/.test(f) && /permalink:\s*['"]?\/publications\/equipes\/[^/]+\/qa-report\/?['"]?/i.test(txt)) {
-      txt = txt.replace(/permalink:\s*['"]?\/publications\/equipes\/([^/]+)\/qa-report\/?['"]?/i,
-                        'permalink: /publications/equipes/$1/qa/');
-      fs.writeFileSync(fp, txt);
-      console.log("Fixed QA permalink in", f);
-    }
-    if (/-qa-report\.md$/.test(f) && /permalink:\s*['"]?\/publications\/equipes\/[^/]+\/qa\/?['"]?/i.test(txt)) {
-      txt = txt.replace(/permalink:\s*['"]?\/publications\/equipes\/([^/]+)\/qa\/?['"]?/i,
-                        'permalink: /publications/equipes/$1/qa-report/');
-      fs.writeFileSync(fp, txt);
-      console.log("Fixed QA-REPORT permalink in", f);
-    }
+  const qaFile       = path.join(OUT_DIR, `${DATE}-team-${team.slug}-qa.md`);
+  const qaReportFile = path.join(OUT_DIR, `${DATE}-team-${team.slug}-qa-report.md`);
+  // Force les permalinks corrects si les fichiers existent
+  if (fs.existsSync(qaFile))       setPermalink(qaFile,       `/publications/equipes/${team.slug}/qa/`);
+  if (fs.existsSync(qaReportFile)) setPermalink(qaReportFile, `/publications/equipes/${team.slug}/qa-report/`);
   }
-}
 
 async function runTeam(team) {
   cleanupOldTeamFiles(team.slug);
