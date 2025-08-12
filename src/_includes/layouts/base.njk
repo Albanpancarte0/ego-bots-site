@@ -7,6 +7,24 @@
  <link rel="stylesheet" href="{{ '/style.css' | url }}?v={{ build.v }}">
   <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:800px;margin:40px auto;padding:0 16px;line-height:1.55}nav{margin-bottom:20px}nav a{margin-right:12px;text-decoration:none}.muted{opacity:.7;font-size:.9em}</style>
 </head>
+{% if tags and 'team-manager' in tags %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ title | escape }}",
+  "description": "Pack {{ title | escape }} clé-en-main (manager + 3 bots + QA).",
+  "url": "{{ site.url }}{{ page.url | url }}",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "EUR",
+    "price": "79",
+    "availability": "https://schema.org/InStock",
+    "url": "{{ site.url }}{{ page.url | url }}"
+  }
+}
+</script>
+{% endif %}
 <body>
   <nav>
     <a href="{{ '/' | url }}">Accueil</a>
