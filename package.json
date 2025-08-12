@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "build": "eleventy --input=src --output=docs --pathprefix=/ego-bots-site/",
-  "serve": "eleventy --serve",
-  "bots:auto": "node scripts/auto-bots.mjs",
-  "bots:llm": "node scripts/auto-bots-llm.mjs"
-}
+  "scripts": {
+    "build": "eleventy --input=src --output=docs --pathprefix=/ego-bots-site/",
+    "serve": "eleventy --serve",
+    "bots:auto": "node scripts/auto-bots.mjs",
+    "bots:llm": "node scripts/auto-bots-llm.mjs"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
