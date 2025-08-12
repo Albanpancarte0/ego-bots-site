@@ -5,22 +5,26 @@ import { chat } from "./llm.mjs";
 
 const PAY = paymentsData || {};
 const DATE = new Date().toISOString().slice(0,10);
-const OUT_DIR = path.join("src", "posts");  
+const OUT_DIR = path.join("src", "posts");
 
+// === EQUIPES (tu pourras en rajouter après que ça tourne) ===
 const TEAMS = [
-  { slug: "seo", manager: "Manager SEO", bots: [
-    {slug:"researcher",name:"Keyword Researcher"},
-    {slug:"onpage",name:"On-Page Optimizer"},
-    {slug:"qa",name:"Quality Assessor"} ],
+  { slug: "seo", manager: "Manager SEO",
+    bots: [
+      { slug: "researcher", name: "Keyword Researcher" },
+      { slug: "onpage",     name: "On-Page Optimizer" },
+      { slug: "qa",         name: "Quality Assessor" }
+    ],
     goal: "Sortir un plan SEO monétisable pour une niche précise avec une page 'offre' prête à vendre."
   },
-  { slug: "ads", manager: "Manager Ads & Créa", bots: [
-    {slug:"angles",name:"Creative Angle Maker"},
-    {slug:"ugc",name:"UGC Script Lab"},
-    {slug:"landingcopy",name:"Landing Copy Refiner"} ],
+  { slug: "ads", manager: "Manager Ads & Créa",
+    bots: [
+      { slug: "angles",      name: "Creative Angle Maker" },
+      { slug: "ugc",         name: "UGC Script Lab" },
+      { slug: "landingcopy", name: "Landing Copy Refiner" }
+    ],
     goal: "Pack publicitaire: 10 angles + scripts UGC + copy de landing."
-  },
-  // … (garde tes autres équipes ici)
+  }
 ];
 
 const MANAGER_SYSTEM = `Tu es un Manager qui planifie le travail de 3 bots spécialisés.
@@ -30,19 +34,46 @@ const BOT_SYSTEM = (role) => `Tu es "${role}". Suis le brief et rends un livrabl
 
 const QA_SYSTEM = `Contrôleur qualité: note 0-5 chaque critère, propose corrections, et fournis une version révisée finale du livrable.`;
 
+// ========== HELPERS ==========
 function writeFile(rel, content) {
   const f = path.join(OUT_DIR, rel);
   fs.mkdirSync(path.dirname(f), { recursive: true });
   fs.writeFileSync(f, content);
   return f;
 }
-function readFileSafe(file) { try { return fs.readFileSync(file, "utf8"); } catch { return null; } }
+function readFileSafe(file) {
+  try { return fs.readFileSync(file, "utf8"); } catch { return null; }
+}
 
 const fmTeam = ({title, slug}) =>
-  `---\ntitle: "${title}"\ndate: "${DATE}"\ntags: ["post","team-manager"]\nlayout: layouts/post.njk\npermalink: "/publications/equipes/${slug}/"\n---\n`;
+`---
+title: "${title}"
+date: "${DATE}"
+tags: ["post","team-manager"]
+layout: layouts/post.njk
+permalink: "/publications/equipes/${slug}/"
+---
+`;
 
 const fmChild = ({title, teamSlug, childSlug}) =>
-  `---\ntitle: "${title}"\ndate: "${DATE}"\ntags: ["post","team-bot"]\nlayout: layouts/post.njk\npermalink: "/publications/equipes/${teamSlug}/${childSlug}/"\n---\n`;
+`---
+title: "${title}"
+date: "${DATE}"
+tags: ["post","team-bot"]
+layout: layouts/post.njk
+permalink: "/publications/equipes/${teamSlug}/${childSlug}/"
+---
+`;
+
+function cleanupOldTeamFiles(teamSlug) {
+  if (!fs.existsSync(OUT_DIR)) return;
+  for (const f of fs.readdirSync(OUT_DIR)) {
+    if (f.endsWith(".md") && f.includes(`-team-${teamSlug}-`) && !f.startsWith(`${DATE}-`)) {
+      fs.unlinkSync(path.join(OUT_DIR, f));
+      console.log("Removed old", f);
+    }
+  }
+}
 
 function setPermalink(file, newPermalink) {
   if (!fs.existsSync(file)) return;
@@ -51,8 +82,8 @@ function setPermalink(file, newPermalink) {
   if (!m) return;
   const fm = m[1];
   const body = raw.slice(m[0].length);
-  const cleaned = newPermalink.replace(/["']/g, "").replace(/\/+$/,"/"); // enlève quotes, normalise /
-  const fm2 = fm.match(/^\s*permalink:/m)
+  const cleaned = String(newPermalink).replace(/["']/g, "").replace(/\/+$/,"/"); // normalise
+  const fm2 = /^\s*permalink:/m.test(fm)
     ? fm.replace(/^\s*permalink:.*$/m, `permalink: ${cleaned}`)
     : `permalink: ${cleaned}\n` + fm;
   fs.writeFileSync(file, `---\n${fm2}\n---${body}`);
@@ -61,12 +92,38 @@ function setPermalink(file, newPermalink) {
 function fixQaFiles(team) {
   const qaFile       = path.join(OUT_DIR, `${DATE}-team-${team.slug}-qa.md`);
   const qaReportFile = path.join(OUT_DIR, `${DATE}-team-${team.slug}-qa-report.md`);
-  // Force les permalinks corrects si les fichiers existent
   if (fs.existsSync(qaFile))       setPermalink(qaFile,       `/publications/equipes/${team.slug}/qa/`);
   if (fs.existsSync(qaReportFile)) setPermalink(qaReportFile, `/publications/equipes/${team.slug}/qa-report/`);
+}
+
+// ========== PIPELINE PAR EQUIPE ==========
+async function runTeam(team) {
+  cleanupOldTeamFiles(team.slug);
+
+  // 1) Brief
+  const brief = await chat({
+    system: MANAGER_SYSTEM,
+    user: `Domaine: ${team.slug}\nObjectif: ${team.goal}\nRends un BRIEF utile et mesurable pour guider 3 bots.`
+  });
+
+  // 2) Bots
+  const outputs = {};
+  for (const b of team.bots) {
+    outputs[b.slug] = await chat({
+      system: BOT_SYSTEM(b.name),
+      user: `BRIEF:\n${brief}\n\nRéalise ta partie uniquement.`
+    });
   }
 
-const payPack = PAY[team.slug]?.pack || "";
+  // 3) QA sur le livrable principal (premier bot)
+  const mainKey = team.bots[0].slug;
+  const qa = await chat({
+    system: QA_SYSTEM,
+    user: `BRIEF:\n${brief}\n\nLivrable à évaluer:\n${outputs[mainKey]}`
+  });
+
+  // 4) Pages
+  const payPack = PAY[team.slug]?.pack || "";
   const ctaPack = payPack ? `\n<p><a class="btn" href="${payPack}" target="_blank" rel="noopener">Commander le PACK — 79€</a></p>\n` : "";
 
   const managerMd =
@@ -98,7 +155,7 @@ const payPack = PAY[team.slug]?.pack || "";
   // Auto-fix permalinks QA / QA-report
   fixQaFiles(team);
 
-  // Prune des fichiers inattendus (du jour)
+  // Prune des fichiers inattendus du jour
   const allowed = new Set(["manager", ...team.bots.map(b => b.slug), "qa-report"]);
   for (const f of fs.readdirSync(OUT_DIR)) {
     if (f.startsWith(`${DATE}-`) && f.endsWith(".md") && f.includes(`-team-${team.slug}-`)) {
@@ -110,3 +167,13 @@ const payPack = PAY[team.slug]?.pack || "";
     }
   }
 }
+
+// ========== MAIN ==========
+async function main() {
+  for (const t of TEAMS) {
+    console.log("▶ Team:", t.slug);
+    await runTeam(t);
+  }
+  console.log("OK - équipes générées");
+}
+main().catch(e => { console.error(e); process.exit(1); });
