@@ -66,47 +66,39 @@ function fixQaFiles(team) {
   if (fs.existsSync(qaReportFile)) setPermalink(qaReportFile, `/publications/equipes/${team.slug}/qa-report/`);
   }
 
-async function runTeam(team) {
-  cleanupOldTeamFiles(team.slug);
-
-  const brief = await chat({
-    system: MANAGER_SYSTEM,
-    user: `Domaine: ${team.slug}\nObjectif: ${team.goal}\nRends un BRIEF utile et mesurable pour guider 3 bots.`
-  });
-
-  const outputs = {};
-  for (const b of team.bots) {
-    outputs[b.slug] = await chat({
-      system: BOT_SYSTEM(b.name),
-      user: `BRIEF:\n${brief}\n\nRéalise ta partie uniquement.`
-    });
-  }
-
-  const mainKey = team.bots[0].slug;
-  const qa = await chat({
-    system: QA_SYSTEM,
-    user: `BRIEF:\n${brief}\n\nLivrable à évaluer:\n${outputs[mainKey]}`
-  });
+const payPack = PAY[team.slug]?.pack || "";
+  const ctaPack = payPack ? `\n<p><a class="btn" href="${payPack}" target="_blank" rel="noopener">Commander le PACK — 79€</a></p>\n` : "";
 
   const managerMd =
     fmTeam({ title: team.manager, slug: team.slug }) +
     `## Brief du manager\n\n${brief}\n\n` +
     `## Livrables\n` +
-    team.bots.map(b => `- [${b.name}]({{ '/publications/equipes/${team.slug}/${b.slug}/' | url }})`).join("\n") +
-    `\n\n> ⚙️ Ajoute ici ton lien de paiement pour commander le pack.\n`;
+    team.bots
+      .map(b => `- [${b.name}]({{ '/publications/equipes/${team.slug}/${b.slug}/' | url }})`)
+      .join("\n") +
+    `\n` + ctaPack +
+    `\n> ⚙️ Ajoute/édite les liens dans src/_data/payments.json\n`;
   writeFile(`${DATE}-team-${team.slug}-manager.md`, managerMd);
 
   for (const b of team.bots) {
-    const botMd = fmChild({ title: `${b.name} — ${team.manager}`, teamSlug: team.slug, childSlug: b.slug })
-      + outputs[b.slug] + `\n\n> ⚙️ Ajoute ici le lien de paiement de ce sous-produit.\n`;
+    const payBot = PAY[team.slug]?.[b.slug] || "";
+    const ctaBot = payBot ? `\n<p><a class="btn" href="${payBot}" target="_blank" rel="noopener">Commander ce livrable</a></p>\n` : "";
+    const botMd =
+      fmChild({ title: `${b.name} — ${team.manager}`, teamSlug: team.slug, childSlug: b.slug }) +
+      outputs[b.slug] +
+      ctaBot;
     writeFile(`${DATE}-team-${team.slug}-${b.slug}.md`, botMd);
   }
 
-  const qaMd = fmChild({ title: `QA — ${team.manager}`, teamSlug: team.slug, childSlug: "qa-report" }) + qa;
+  // Rapport QA
+  const qaMd =
+    fmChild({ title: `QA — ${team.manager}`, teamSlug: team.slug, childSlug: "qa-report" }) + qa;
   writeFile(`${DATE}-team-${team.slug}-qa-report.md`, qaMd);
 
-  // Auto-fix + prune dans la même exécution
+  // Auto-fix permalinks QA / QA-report
   fixQaFiles(team);
+
+  // Prune des fichiers inattendus (du jour)
   const allowed = new Set(["manager", ...team.bots.map(b => b.slug), "qa-report"]);
   for (const f of fs.readdirSync(OUT_DIR)) {
     if (f.startsWith(`${DATE}-`) && f.endsWith(".md") && f.includes(`-team-${team.slug}-`)) {
@@ -118,12 +110,3 @@ async function runTeam(team) {
     }
   }
 }
-
-async function main() {
-  for (const t of TEAMS) {
-    console.log("▶ Team:", t.slug);
-    await runTeam(t);
-  }
-  console.log("OK - équipes générées");
-}
-main().catch(e => { console.error(e); process.exit(1); });
