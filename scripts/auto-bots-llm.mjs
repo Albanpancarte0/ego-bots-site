@@ -1,10 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
+import paymentsData from "../src/_data/payments.json" with { type: "json" };
 import { chat } from "./llm.mjs";
-import paymentsData from "../src/_data/payments.json" assert { type: "json" };
+
 const PAY = paymentsData || {};
 const DATE = new Date().toISOString().slice(0,10);
-const OUT_DIR = path.join("src", "posts");
+const OUT_DIR = path.join("src", "posts");  
 
 const TEAMS = [
   { slug: "seo", manager: "Manager SEO", bots: [
