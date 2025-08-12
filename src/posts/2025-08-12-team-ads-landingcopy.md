@@ -3,7 +3,7 @@ title: "Landing Copy Refiner — Manager Ads & Créa"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ads/landingcopy/"
+permalink: /publications/equipes/ads/landingcopy/
 ---
 *(fallback)* BRIEF:
 # BRIEF : Pack Publicitaire

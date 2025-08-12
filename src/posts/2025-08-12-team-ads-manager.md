@@ -3,7 +3,7 @@ title: "Manager Ads & Créa"
 date: "2025-08-12"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ads/"
+permalink: /publications/equipes/ads/
 ---
 ## Brief du manager
 

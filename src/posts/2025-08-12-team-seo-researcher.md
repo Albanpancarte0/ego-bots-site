@@ -3,7 +3,7 @@ title: "Keyword Researcher — Manager SEO"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/seo/researcher/"
+permalink: /publications/equipes/seo/researcher/
 ---
 # Plan SEO Monétisable pour Produits Écologiques
 

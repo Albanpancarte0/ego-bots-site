@@ -3,7 +3,7 @@ title: "On-Page Optimizer — Manager SEO"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/seo/onpage/"
+permalink: /publications/equipes/seo/onpage/
 ---
 # Plan Monétisable - SEO pour Produits Écologiques
 

@@ -3,7 +3,7 @@ title: "Onboarding Docs — Manager SaaS"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/saas/onboardingdocs/"
+permalink: /publications/equipes/saas/onboardingdocs/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

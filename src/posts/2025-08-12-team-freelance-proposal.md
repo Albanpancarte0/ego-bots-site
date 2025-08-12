@@ -3,7 +3,7 @@ title: "Proposal Writer — Manager Freelance"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/freelance/proposal/"
+permalink: /publications/equipes/freelance/proposal/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

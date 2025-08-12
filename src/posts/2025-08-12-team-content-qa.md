@@ -3,7 +3,7 @@ title: "Quality Assessor — Manager Contenu"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/content/qa/"
+permalink: /publications/equipes/content/qa/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

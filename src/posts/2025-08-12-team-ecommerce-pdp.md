@@ -3,7 +3,7 @@ title: "Product Page Writer — Manager E-commerce"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ecommerce/pdp/"
+permalink: /publications/equipes/ecommerce/pdp/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

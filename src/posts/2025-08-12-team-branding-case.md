@@ -3,7 +3,7 @@ title: "Case Study Writer — Manager Personal Branding"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/branding/case/"
+permalink: /publications/equipes/branding/case/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

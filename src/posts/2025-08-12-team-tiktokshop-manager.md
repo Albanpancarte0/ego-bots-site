@@ -3,7 +3,7 @@ title: "Manager TikTok Shop"
 date: "2025-08-12"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/tiktokshop/"
+permalink: /publications/equipes/tiktokshop/
 ---
 ## Brief du manager
 

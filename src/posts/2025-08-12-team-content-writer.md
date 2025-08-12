@@ -3,7 +3,7 @@ title: "Article Writer — Manager Contenu"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/content/writer/"
+permalink: /publications/equipes/content/writer/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

@@ -3,7 +3,7 @@ title: "Pricing Packager — Manager Freelance"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/freelance/pricing/"
+permalink: /publications/equipes/freelance/pricing/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

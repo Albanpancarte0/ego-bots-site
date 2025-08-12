@@ -3,7 +3,7 @@ title: "Guide Estimation — Manager Immobilier"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/immobilier/estimation/"
+permalink: /publications/equipes/immobilier/estimation/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

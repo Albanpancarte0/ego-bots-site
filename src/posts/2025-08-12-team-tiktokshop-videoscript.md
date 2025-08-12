@@ -3,7 +3,7 @@ title: "Video Script UGC — Manager TikTok Shop"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/tiktokshop/videoscript/"
+permalink: /publications/equipes/tiktokshop/videoscript/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 

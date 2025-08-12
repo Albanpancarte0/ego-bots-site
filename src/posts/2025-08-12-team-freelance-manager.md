@@ -3,7 +3,7 @@ title: "Manager Freelance"
 date: "2025-08-12"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/freelance/"
+permalink: /publications/equipes/freelance/
 ---
 ## Brief du manager
 

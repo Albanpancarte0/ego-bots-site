@@ -3,7 +3,7 @@ title: "Review Reply Pro — Manager Restaurant"
 date: "2025-08-12"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/restaurant/reply/"
+permalink: /publications/equipes/restaurant/reply/
 ---
 > ⚠️ IA non configurée (ajoute LLM_BASE_URL & LLM_API_KEY dans Settings → Secrets).
 
