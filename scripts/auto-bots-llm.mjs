@@ -181,9 +181,40 @@ function cleanupOldTeamFiles(teamSlug) {
 
 // Corriger/éliminer les fichiers QA problématiques
 function fixQaFiles(team) {
-  const hasQaBot = team.bots.some(b => b.slug === "qa");
-  const qaFile = path.join(OUT_DIR, `${DATE}-team-${team.slug}-qa.md`);
-  const qaReportFile = path.join(OUT_DIR, `${DATE}-team-${team.slug}-qa-report.md`);
+  const files = fs.readdirSync(OUT_DIR).filter(f =>
+    f.endsWith(".md") && f.includes(`-team-${team.slug}-`)
+  );
+
+  for (const f of files) {
+    const fp = path.join(OUT_DIR, f);
+    let txt = fs.readFileSync(fp, "utf8");
+
+    // Normalise les lignes permalink (tolère quotes et slash final facultatif)
+    // 1) si le fichier est "*-qa.md" → doit finir par /qa/
+    if (/-qa\.md$/.test(f)) {
+      if (/permalink:\s*['"]?\/publications\/equipes\/[^/]+\/qa-report\/?['"]?/i.test(txt)) {
+        txt = txt.replace(
+          /permalink:\s*['"]?\/publications\/equipes\/([^/]+)\/qa-report\/?['"]?/i,
+          'permalink: /publications/equipes/$1/qa/'
+        );
+        fs.writeFileSync(fp, txt);
+        console.log("Fixed QA permalink in", f);
+      }
+    }
+
+    // 2) si le fichier est "*-qa-report.md" → doit finir par /qa-report/
+    if (/-qa-report\.md$/.test(f)) {
+      if (/permalink:\s*['"]?\/publications\/equipes\/[^/]+\/qa\/?['"]?/i.test(txt)) {
+        txt = txt.replace(
+          /permalink:\s*['"]?\/publications\/equipes\/([^/]+)\/qa\/?['"]?/i,
+          'permalink: /publications/equipes/$1/qa-report/'
+        );
+        fs.writeFileSync(fp, txt);
+        console.log("Fixed QA-REPORT permalink in", f);
+      }
+    }
+  }
+}
 
   // Si l'équipe n'a PAS de bot "qa" → supprimer un éventuel -qa.md d'un ancien script
   if (!hasQaBot && fs.existsSync(qaFile)) {
