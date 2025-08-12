@@ -7,7 +7,8 @@
     "build": "eleventy --input=src --output=docs --pathprefix=/ego-bots-site/",
     "serve": "eleventy --serve",
     "bots:auto": "node scripts/auto-bots.mjs",
-    "bots:llm": "node scripts/auto-bots-llm.mjs"
+    "bots:llm": "node scripts/auto-bots-llm.mjs",
+    "self:heal": "node scripts/self-heal.mjs"
   },
   "keywords": [],
   "author": "",
