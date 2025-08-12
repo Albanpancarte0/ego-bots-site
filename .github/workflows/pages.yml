@@ -24,8 +24,15 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci || npm i --no-audit --no-fund
-      - run: npm run self:heal || true
-      - run: rm -rf docs
+
+      - name: Write build version
+        run: |
+          mkdir -p src/_data
+          echo "{\"v\":\"$GITHUB_RUN_NUMBER\"}" > src/_data/build.json
+
+      - name: Self-heal content
+        run: node scripts/self-heal.mjs || true
+
       - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
