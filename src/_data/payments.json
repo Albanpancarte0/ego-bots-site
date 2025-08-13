@@ -1,14 +1,20 @@
 {
-  "seo": {
-    "pack": "https://pancarte.gumroad.com/l/pack-seo?checkout=true",
-    "researcher": "https://pancarte.gumroad.com/l/seo-keywords?checkout=true",
-    "onpage": "https://pancarte.gumroad.com/l/seo-onpage?checkout=true",
-    "qa": "https://pancarte.gumroad.com/l/seo-qa?checkout=true"
+  "tiktokshop": {
+    "pack": "https://pancarte.gumroad.com/l/pack-tiktokshop?checkout=true",
+    "productresearch": "https://pancarte.gumroad.com/l/tt-productresearch?checkout=true",
+    "videoscript": "https://pancarte.gumroad.com/l/tt-videoscript?checkout=true",
+    "offerbuilder": "https://pancarte.gumroad.com/l/tt-offerbuilder?checkout=true"
   },
-  "ads": {
-    "pack": "https://pancarte.gumroad.com/l/pack-ads?checkout=true",
-    "angles": "https://pancarte.gumroad.com/l/ads-angles?checkout=true",
-    "ugc": "https://pancarte.gumroad.com/l/ads-ugc?checkout=true",
-    "landingcopy": "https://pancarte.gumroad.com/l/ads-landing?checkout=true"
+  "shortvideo": {
+    "pack": "https://pancarte.gumroad.com/l/pack-shorts?checkout=true",
+    "ideas": "https://pancarte.gumroad.com/l/shorts-ideas?checkout=true",
+    "script": "https://pancarte.gumroad.com/l/shorts-script?checkout=true",
+    "shotlist": "https://pancarte.gumroad.com/l/shorts-shotlist?checkout=true"
+  },
+  "youtube": {
+    "pack": "https://pancarte.gumroad.com/l/pack-youtube?checkout=true",
+    "topics": "https://pancarte.gumroad.com/l/youtube-topics?checkout=true",
+    "script": "https://pancarte.gumroad.com/l/youtube-script?checkout=true",
+    "titles": "https://pancarte.gumroad.com/l/youtube-titles?checkout=true"
   }
 }
