@@ -1,5 +1,4 @@
 {
-  "name": "site",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,9 +7,5 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.0"
-}
-    export default {
-  pathPrefix: "/<ton-repo>/",   // remplace par le nom exact du repo
-  dir: { input: ".", output: "_site" } // garde la sortie par défaut
   }
 }
