@@ -3,7 +3,7 @@ name: Build & Deploy Eleventy to Pages
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,33 +11,32 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
-      - run: npm ci || npm i --no-audit --no-fund
 
-      - name: Write build version
-        run: |
-          mkdir -p src/_data
-          echo "{\"v\":\"$GITHUB_RUN_NUMBER\"}" > src/_data/build.json
+      - name: Install deps
+        run: npm ci || npm i --no-audit --no-fund
 
-      - name: Self-heal content
-        run: node scripts/self-heal.mjs || true
+      - name: Build Eleventy
+        run: npx @11ty/eleventy
 
-      - run: npm run build
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: _site
 
   deploy:
     needs: build
@@ -46,5 +45,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
