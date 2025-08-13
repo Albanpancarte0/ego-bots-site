@@ -3,7 +3,7 @@ title: "On-Page Optimizer — Manager SEO"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/seo/onpage/"
+permalink: /publications/equipes/seo/onpage/
 ---
 *(fallback)* BRIEF:
 # BRIEF SEO Monétisation

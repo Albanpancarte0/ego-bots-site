@@ -3,7 +3,7 @@ title: "Newsletter Builder — Manager Email & CRM"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/emailcrm/newsletter/"
+permalink: /publications/equipes/emailcrm/newsletter/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: emailcrm

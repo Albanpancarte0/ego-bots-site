@@ -3,7 +3,7 @@ title: "Manager E-commerce"
 date: "2025-08-13"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ecommerce/"
+permalink: /publications/equipes/ecommerce/
 ---
 ## Brief du manager
 

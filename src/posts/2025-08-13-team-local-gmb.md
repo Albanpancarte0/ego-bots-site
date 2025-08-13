@@ -3,7 +3,7 @@ title: "GMB Poster — Manager Local"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/local/gmb/"
+permalink: /publications/equipes/local/gmb/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: local

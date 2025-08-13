@@ -3,7 +3,7 @@ title: "Pricing Packager — Manager Freelance"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/freelance/pricing/"
+permalink: /publications/equipes/freelance/pricing/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: freelance

@@ -3,7 +3,7 @@ title: "Product Page Writer — Manager E-commerce"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ecommerce/pdp/"
+permalink: /publications/equipes/ecommerce/pdp/
 ---
 # Fiche Produit
 

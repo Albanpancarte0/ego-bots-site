@@ -3,7 +3,7 @@ title: "Keyword Researcher — Manager SEO"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/seo/researcher/"
+permalink: /publications/equipes/seo/researcher/
 ---
 *(fallback)* BRIEF:
 # BRIEF SEO Monétisation

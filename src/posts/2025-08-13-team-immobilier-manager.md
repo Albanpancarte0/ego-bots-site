@@ -3,7 +3,7 @@ title: "Manager Immobilier"
 date: "2025-08-13"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/immobilier/"
+permalink: /publications/equipes/immobilier/
 ---
 ## Brief du manager
 

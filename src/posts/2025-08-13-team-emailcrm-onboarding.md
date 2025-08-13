@@ -3,7 +3,7 @@ title: "Onboarding Sequence — Manager Email & CRM"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/emailcrm/onboarding/"
+permalink: /publications/equipes/emailcrm/onboarding/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: emailcrm

@@ -3,7 +3,7 @@ title: "Manager SaaS"
 date: "2025-08-13"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/saas/"
+permalink: /publications/equipes/saas/
 ---
 ## Brief du manager
 

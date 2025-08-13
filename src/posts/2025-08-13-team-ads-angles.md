@@ -3,7 +3,7 @@ title: "Creative Angle Maker — Manager Ads & Créa"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ads/angles/"
+permalink: /publications/equipes/ads/angles/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: ads

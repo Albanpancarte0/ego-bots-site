@@ -3,7 +3,7 @@ title: "Ads Angle Maker — Manager E-commerce"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ecommerce/adangles/"
+permalink: /publications/equipes/ecommerce/adangles/
 ---
 *(fallback)* BRIEF:
 # BRIEF

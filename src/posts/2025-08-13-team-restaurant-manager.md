@@ -3,7 +3,7 @@ title: "Manager Restaurant"
 date: "2025-08-13"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/restaurant/"
+permalink: /publications/equipes/restaurant/
 ---
 ## Brief du manager
 

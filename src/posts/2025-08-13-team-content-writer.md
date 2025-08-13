@@ -3,7 +3,7 @@ title: "Article Writer — Manager Contenu"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/content/writer/"
+permalink: /publications/equipes/content/writer/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: content

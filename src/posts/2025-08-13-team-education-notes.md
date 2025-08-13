@@ -3,7 +3,7 @@ title: "Study Notes — Manager Éducation"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/education/notes/"
+permalink: /publications/equipes/education/notes/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: education

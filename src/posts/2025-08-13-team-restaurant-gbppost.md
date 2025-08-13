@@ -3,7 +3,7 @@ title: "GBP Post Weekly — Manager Restaurant"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/restaurant/gbppost/"
+permalink: /publications/equipes/restaurant/gbppost/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: restaurant

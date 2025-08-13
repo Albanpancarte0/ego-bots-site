@@ -3,7 +3,7 @@ title: "UGC Script Lab — Manager Ads & Créa"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/ads/ugc/"
+permalink: /publications/equipes/ads/ugc/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: ads

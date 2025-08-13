@@ -3,7 +3,7 @@ title: "Offer Builder — Manager TikTok Shop"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/tiktokshop/offerbuilder/"
+permalink: /publications/equipes/tiktokshop/offerbuilder/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: tiktokshop

@@ -3,7 +3,7 @@ title: "Manager Éducation"
 date: "2025-08-13"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/education/"
+permalink: /publications/equipes/education/
 ---
 ## Brief du manager
 

@@ -3,7 +3,7 @@ title: "Manager SEO"
 date: "2025-08-13"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/seo/"
+permalink: /publications/equipes/seo/
 ---
 ## Brief du manager
 

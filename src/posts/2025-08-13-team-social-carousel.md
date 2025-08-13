@@ -3,7 +3,7 @@ title: "Carousel Writer — Manager Réseaux sociaux"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/social/carousel/"
+permalink: /publications/equipes/social/carousel/
 ---
 # Pack Social
 

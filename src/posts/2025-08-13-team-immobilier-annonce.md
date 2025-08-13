@@ -3,7 +3,7 @@ title: "Annonce Immo Writer — Manager Immobilier"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/immobilier/annonce/"
+permalink: /publications/equipes/immobilier/annonce/
 ---
 *(fallback)* BRIEF:
 # BRIEF DE PLANIFICATION DES BOTS IMMOBILIERS

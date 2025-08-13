@@ -3,7 +3,7 @@ title: "Manager Réseaux sociaux"
 date: "2025-08-13"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/social/"
+permalink: /publications/equipes/social/
 ---
 ## Brief du manager
 

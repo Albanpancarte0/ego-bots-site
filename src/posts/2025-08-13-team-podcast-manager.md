@@ -3,7 +3,7 @@ title: "Manager Podcast/Video"
 date: "2025-08-13"
 tags: ["post","team-manager"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/podcast/"
+permalink: /publications/equipes/podcast/
 ---
 ## Brief du manager
 

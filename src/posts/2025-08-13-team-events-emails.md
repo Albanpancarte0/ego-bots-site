@@ -3,7 +3,7 @@ title: "Email Invitations — Manager Événementiel"
 date: "2025-08-13"
 tags: ["post","team-bot"]
 layout: layouts/post.njk
-permalink: "/publications/equipes/events/emails/"
+permalink: /publications/equipes/events/emails/
 ---
 *(fallback)* BRIEF:
 *(fallback)* Domaine: events
