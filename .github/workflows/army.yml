@@ -1,0 +1,52 @@
+name: Armée — produire & publier
+
+on:
+  schedule:
+    - cron: "15 5 * * *"
+  workflow_dispatch:
+    inputs:
+      domains:
+        description: "Liste de domaines (ex: ads,shortvideo,seo)"
+        required: false
+      brief:
+        description: "Brief global optionnel"
+        required: false
+      webhook:
+        description: "Webhook (Make/Zapier) optionnel"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  army:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci || npm i --no-audit --no-fund
+      - name: Produire l'armée
+        run: npm run army:run
+        env:
+          ARMY: ${{ inputs.domains }}
+          BRIEF: ${{ inputs.brief }}
+          ARMY_WEBHOOK_URL: ${{ inputs.webhook }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY:  ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL:    ${{ secrets.LLM_MODEL }}
+      - name: Commit & push sorties
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(army): ${{ inputs.domains || 'daily' }} $GITHUB_RUN_NUMBER" || echo "rien à committer"
+          git push
+      - name: Upload sortie (artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: army-${{ github.run_number }}
+          path: sortie
