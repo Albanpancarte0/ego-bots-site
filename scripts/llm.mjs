@@ -1,38 +1,38 @@
 export async function chat({ system, user }) {
-  const apiKey = process.env.OPENAI_API_KEY || process.env.LLM_API_KEY;
-  const base   = process.env.LLM_BASE_URL || "https://api.openai.com/v1";
-  const model  = process.env.LLM_MODEL || "gpt-4o-mini";
+  const base = process.env.LLM_BASE_URL || "https://api.openai.com/v1";
+  const key  = process.env.LLM_API_KEY || process.env.OPENAI_API_KEY;
+  const model = process.env.LLM_MODEL || "gpt-4o-mini";
 
-  // Fallback si pas de clé: ne bloque pas la génération
-  const fallback = `*(fallback)* ${user.slice(0, 600)}\n\n- Sections\n- Concrètes\n- Livrable prêt`;
-  if (!apiKey) return fallback;
+  if (!key) throw new Error("Missing LLM_API_KEY / OPENAI_API_KEY");
 
-  try {
-    const controller = new AbortController();
-    const t = setTimeout(() => controller.abort(), 20000); // 20s timeout
-    const res = await fetch(`${base}/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${apiKey}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        model,
-        messages: [
-          { role: "system", content: system },
-          { role: "user", content: user }
-        ],
-        temperature: 0.4
-      }),
-      signal: controller.signal
-    });
-    clearTimeout(t);
+  const url = base.endsWith("/")
+    ? `${base}chat/completions`
+    : `${base}/chat/completions`;
 
-    if (!res.ok) throw new Error(`HTTP ${res.status} ${await res.text().catch(()=> '')}`);
-    const data = await res.json();
-    return data?.choices?.[0]?.message?.content?.trim() || fallback;
-  } catch (e) {
-    console.warn("LLM error:", e.message);
-    return fallback;
+  const body = {
+    model,
+    messages: [
+      ...(system ? [{ role: "system", content: system }] : []),
+      { role: "user", content: user }
+    ],
+    temperature: 0.4
+  };
+
+  const res = await fetch(url, {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${key}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(body)
+  });
+
+  if (!res.ok) {
+    const text = await res.text().catch(() => "");
+    throw new Error(`LLM error ${res.status}: ${text}`);
   }
+
+  const data = await res.json();
+  const out = data?.choices?.[0]?.message?.content || "";
+  return out.trim();
 }
