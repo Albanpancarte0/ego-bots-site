@@ -1,0 +1,236 @@
+{
+  "seo": {
+    "manager": "Manager SEO",
+    "goal": "Sortir un plan SEO monétisable pour une niche avec page offre prête.",
+    "bots": [
+      { "slug": "researcher", "name": "Keyword Researcher" },
+      { "slug": "onpage",     "name": "On-Page Optimizer" },
+      { "slug": "qa",         "name": "Quality Assessor" }
+    ]
+  },
+  "ads": {
+    "manager": "Manager Ads & Créa",
+    "goal": "10 angles, 3 scripts UGC, 1 copy de landing.",
+    "bots": [
+      { "slug": "angles",      "name": "Creative Angle Maker" },
+      { "slug": "ugc",         "name": "UGC Script Lab" },
+      { "slug": "landingcopy", "name": "Landing Copy Refiner" }
+    ]
+  },
+  "content": {
+    "manager": "Manager Contenu",
+    "goal": "Outline + article ≈1000 mots + QA.",
+    "bots": [
+      { "slug": "outline", "name": "Blog Outliner" },
+      { "slug": "writer",  "name": "Article Writer" },
+      { "slug": "qa",      "name": "Quality Assessor" }
+    ]
+  },
+  "emailcrm": {
+    "manager": "Manager Email & CRM",
+    "goal": "Newsletter + séquence onboarding (3 emails).",
+    "bots": [
+      { "slug": "newsletter",  "name": "Newsletter Builder" },
+      { "slug": "onboarding",  "name": "Onboarding Sequence" },
+      { "slug": "qa",          "name": "Quality Assessor" }
+    ]
+  },
+  "social": {
+    "manager": "Manager Réseaux sociaux",
+    "goal": "Calendrier 7 posts + variations (hook/texte/CTA/hashtags).",
+    "bots": [
+      { "slug": "calendar", "name": "Social Calendar Builder" },
+      { "slug": "postgen",  "name": "Post Generator" },
+      { "slug": "qa",       "name": "Quality Assessor" }
+    ]
+  },
+  "tiktokshop": {
+    "manager": "Manager TikTok Shop",
+    "goal": "Recherche produit, scripts vidéo, offre bundle.",
+    "bots": [
+      { "slug": "productresearch", "name": "Product Research" },
+      { "slug": "videoscript",     "name": "Video Script UGC" },
+      { "slug": "offerbuilder",    "name": "Offer Builder" }
+    ]
+  },
+  "shortvideo": {
+    "manager": "Manager Shorts/Reels/TikTok",
+    "goal": "10 concepts UGC + 5 scripts 30–45s + shotlist.",
+    "bots": [
+      { "slug": "ideas",    "name": "Shorts Idea Lab" },
+      { "slug": "script",   "name": "Short Script Writer" },
+      { "slug": "shotlist", "name": "Shot List Builder" }
+    ]
+  },
+  "youtube": {
+    "manager": "Manager YouTube",
+    "goal": "10 idées, 2 scripts 6–8 min, 10 titres/miniatures.",
+    "bots": [
+      { "slug": "topics", "name": "Topic Planner" },
+      { "slug": "script", "name": "Video Script Writer" },
+      { "slug": "titles", "name": "Title/Thumbnail Ideas" }
+    ]
+  },
+  "linkedin": {
+    "manager": "Manager LinkedIn",
+    "goal": "15 hooks, 1 carrousel 8–10 slides, 10 DM templates non-spam.",
+    "bots": [
+      { "slug": "hooks",    "name": "Hooks Pack" },
+      { "slug": "carousel", "name": "Carousel Ghostwriter" },
+      { "slug": "dm",       "name": "Warm DM Script" }
+    ]
+  },
+  "twitter": {
+    "manager": "Manager Twitter/X",
+    "goal": "30 hooks, 3 threads (7–10), 20 réponses engageantes.",
+    "bots": [
+      { "slug": "hooks",   "name": "Hooks Factory" },
+      { "slug": "thread",  "name": "Thread Writer" },
+      { "slug": "replies", "name": "Reply Engine" }
+    ]
+  },
+  "pr": {
+    "manager": "Manager PR",
+    "goal": "Angles d’histoire, liste médias (blueprint), pitch email.",
+    "bots": [
+      { "slug": "angles",    "name": "PR Angle Maker" },
+      { "slug": "presslist", "name": "Press List Blueprint" },
+      { "slug": "pitch",     "name": "Press Pitch Writer" }
+    ]
+  },
+  "affiliate": {
+    "manager": "Manager Affiliation",
+    "goal": "Niches, briefs contenus, pitch partenaires.",
+    "bots": [
+      { "slug": "niches", "name": "Niche Finder" },
+      { "slug": "briefs", "name": "Content Briefs" },
+      { "slug": "pitch",  "name": "Partner Pitch" }
+    ]
+  },
+  "ecomgrowth": {
+    "manager": "Manager E-commerce Growth",
+    "goal": "Offres, checklist CRO, emails upsell.",
+    "bots": [
+      { "slug": "offers", "name": "Offer Ideation" },
+      { "slug": "cro",    "name": "CRO Checklist" },
+      { "slug": "upsell", "name": "Upsell Emailer" }
+    ]
+  },
+  "community": {
+    "manager": "Manager Communauté",
+    "goal": "Calendrier d’animation, 30 prompts, récap hebdo.",
+    "bots": [
+      { "slug": "calendar", "name": "Community Calendar" },
+      { "slug": "prompts",  "name": "Engagement Prompts" },
+      { "slug": "recap",    "name": "Weekly Recap" }
+    ]
+  },
+  "support": {
+    "manager": "Manager Support",
+    "goal": "Macros support, articles d’aide, QA de ton.",
+    "bots": [
+      { "slug": "macros", "name": "Support Macros" },
+      { "slug": "help",   "name": "Help Center Writer" },
+      { "slug": "qa",     "name": "Tone QA" }
+    ]
+  },
+  "course": {
+    "manager": "Manager Cours",
+    "goal": "Plan de cours, 3 leçons, sales page.",
+    "bots": [
+      { "slug": "outline", "name": "Course Outline" },
+      { "slug": "lesson",  "name": "Lesson Writer" },
+      { "slug": "sales",   "name": "Sales Page Writer" }
+    ]
+  },
+  "notion": {
+    "manager": "Manager Notion",
+    "goal": "Idées templates, spec, description store.",
+    "bots": [
+      { "slug": "ideas",   "name": "Template Ideas" },
+      { "slug": "spec",    "name": "Template Spec" },
+      { "slug": "listing", "name": "Listing Description" }
+    ]
+  },
+  "local": {
+    "manager": "Manager Local",
+    "goal": "1 post GBP, 10 réponses aux avis, checklist d’optimisations.",
+    "bots": [
+      { "slug": "gmb",      "name": "GMB Poster" },
+      { "slug": "review",   "name": "Review Reply Pro" },
+      { "slug": "localfix", "name": "Local SEO Fixer" }
+    ]
+  },
+  "immobilier": {
+    "manager": "Manager Immobilier",
+    "goal": "Annonce, script de visite, guide estimation.",
+    "bots": [
+      { "slug": "annonce",    "name": "Annonce Immo Writer" },
+      { "slug": "visite",     "name": "Script Visite" },
+      { "slug": "estimation", "name": "Guide Estimation" }
+    ]
+  },
+  "saas": {
+    "manager": "Manager SaaS",
+    "goal": "Docs d’onboarding, notes de version, FAQ.",
+    "bots": [
+      { "slug": "onboardingdocs", "name": "Onboarding Docs" },
+      { "slug": "releasenotes",   "name": "Release Notes Writer" },
+      { "slug": "faq",            "name": "FAQ Writer" }
+    ]
+  },
+  "freelance": {
+    "manager": "Manager Freelance",
+    "goal": "Proposition, portfolio, packs tarifaires.",
+    "bots": [
+      { "slug": "proposal", "name": "Proposal Writer" },
+      { "slug": "portfolio","name": "Portfolio Polisher" },
+      { "slug": "pricing",  "name": "Pricing Packager" }
+    ]
+  },
+  "education": {
+    "manager": "Manager Éducation",
+    "goal": "Plan semaine, quiz, fiches.",
+    "bots": [
+      { "slug": "revisionplan", "name": "Plan de révision" },
+      { "slug": "quiz",         "name": "Quiz Maker" },
+      { "slug": "notes",        "name": "Study Notes" }
+    ]
+  },
+  "restaurant": {
+    "manager": "Manager Restaurant",
+    "goal": "Menu optimisé, post GBP, réponses aux avis.",
+    "bots": [
+      { "slug": "menu",    "name": "Menu Optimizer" },
+      { "slug": "gbppost", "name": "GBP Post Weekly" },
+      { "slug": "reply",   "name": "Review Reply Pro" }
+    ]
+  },
+  "branding": {
+    "manager": "Manager Personal Branding",
+    "goal": "Bio, à-propos, étude de cas.",
+    "bots": [
+      { "slug": "bio",   "name": "Bio & Headline" },
+      { "slug": "about", "name": "About Page" },
+      { "slug": "case",  "name": "Case Study Writer" }
+    ]
+  },
+  "events": {
+    "manager": "Manager Événementiel",
+    "goal": "Landing, emails d’invitation, kit sponsor.",
+    "bots": [
+      { "slug": "landing", "name": "Event Landing" },
+      { "slug": "emails",  "name": "Email Invitations" },
+      { "slug": "sponsor", "name": "Sponsor Kit" }
+    ]
+  },
+  "podcast": {
+    "manager": "Manager Podcast/Video",
+    "goal": "Plan d’épisode, show notes, titres pour clips.",
+    "bots": [
+      { "slug": "outline",    "name": "Episode Outline" },
+      { "slug": "shownotes",  "name": "Show Notes" },
+      { "slug": "cliptitles", "name": "Clip Titles" }
+    ]
+  }
+}
