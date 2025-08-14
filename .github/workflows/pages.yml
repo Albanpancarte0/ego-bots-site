@@ -20,19 +20,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
+
       - name: Install deps
         run: npm ci || npm i --no-audit --no-fund
+
       - name: Build Eleventy
         run: npx @11ty/eleventy
+
       - name: Check build output
         run: |
           ls -la _site
           test -f _site/index.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -48,6 +53,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
       - name: Smoke test homepage
         run: |
-          curl -I "${{ steps.deployment.outputs.page_url
+          curl -I "${{ steps.deployment.outputs.page_url }}" | head -n 5
