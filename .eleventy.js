@@ -16,5 +16,9 @@ module.exports = function(eleventyConfig) {
   return {
     dir: { input: "src", output: "docs" },
     pathPrefix: "/ego-bots-site/"
+   };  
+  export default {
+  dir: { input: ".", output: "_site" }
+};
   };
 };
