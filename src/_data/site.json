@@ -1,1 +1,3 @@
-{ "url": "https://albanpancarte0.github.io/ego-bots-site" }
+export default {
+  url: "https://albanpancarte0.github.io/ego-bots-site"
+};
