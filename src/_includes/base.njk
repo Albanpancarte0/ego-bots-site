@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title or "Mon site" }}</title>
+  <meta name="description" content="{{ description or '' }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+</head>
+<body>
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>
