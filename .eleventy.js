@@ -17,8 +17,15 @@ module.exports = function(eleventyConfig) {
     dir: { input: "src", output: "docs" },
     pathPrefix: "/ego-bots-site/"
    };  
-  export default {
-  dir: { input: ".", output: "_site" }
-};
+  export default function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy({ "public": "/" });
+  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("CNAME");
+  eleventyConfig.addPassthroughCopy(".nojekyll");
+
+  return {
+    dir: { input: ".", output: "_site", includes: "_includes" },
+    templateFormats: ["njk","md","html"]
+  
   };
 };
