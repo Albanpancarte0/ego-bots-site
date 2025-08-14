@@ -17,15 +17,14 @@ module.exports = function(eleventyConfig) {
     dir: { input: "src", output: "docs" },
     pathPrefix: "/ego-bots-site/"
    };  
-  export default function(eleventyConfig) {
+export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public": "/" });
   eleventyConfig.addPassthroughCopy("assets");
-  eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy(".nojekyll");
 
   return {
-    dir: { input: ".", output: "_site", includes: "_includes" },
+    pathPrefix: "/mon-site/", // ← remplace par le NOM EXACT du repo
+    dir: { input: ".", output: "_site", includes: "_includes", data: "_data" },
     templateFormats: ["njk","md","html"]
-  
   };
-};
+}
